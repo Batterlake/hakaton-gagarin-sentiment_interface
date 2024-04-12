@@ -3,3 +3,8 @@ pandas==2.0.3
 pytest==7.4.4
 torch==2.2.1
 transformers==4.38.2
+openpyxl
+matplotlib
+sentencepiece
+lightning
+scikit-learn
