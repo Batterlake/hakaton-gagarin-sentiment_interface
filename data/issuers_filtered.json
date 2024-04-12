@@ -52,7 +52,8 @@
         "company_name_lower": "алроса",
         "company_type": "ПАО",
         "BGTickers": [
-            "ALRS RX"
+            "ALRS RX", 
+            "ALRS"
         ],
         "synonims": [
             "alrosa",
@@ -316,7 +317,9 @@
         "synonims": [
             "abraudurso",
             "Абрау Дюрсо",
-            "Абрау – Дюрсо"
+            "Абрау – Дюрсо",
+            "Абрау-Дюрсо",
+            "Абрау - Дюрсо"
         ]
     },
     {
@@ -464,7 +467,7 @@
         "company_name_lower": "башинформсвязь",
         "company_type": "ПАО",
         "BGTickers": [
-            "BISV                "
+            "BISV"
         ],
         "synonims": []
     },
@@ -537,7 +540,7 @@
         "company_name_lower": "вторая генерирующая компания оптового рынка электроэнергии",
         "company_type": "ПАО",
         "BGTickers": [
-            "OGKB                "
+            "OGKB"
         ],
         "synonims": []
     },
@@ -557,7 +560,7 @@
         "company_name_lower": "газ",
         "company_type": "ПАО",
         "BGTickers": [
-            "GAZA                "
+            "GAZA"
         ],
         "synonims": [
             "ПАО \"Газ\"",
@@ -669,7 +672,7 @@
         "company_name_lower": "глобалтрак менеджмент",
         "company_type": "ПАО",
         "BGTickers": [
-            "GTRK                "
+            "GTRK"
         ],
         "synonims": [
             "Globaltruck",
@@ -792,7 +795,7 @@
         "company_name_lower": "дальневосточное морское пароходство",
         "company_type": "ПАО",
         "BGTickers": [
-            "FESH                "
+            "FESH"
         ],
         "synonims": [
             "FESCO",
@@ -833,7 +836,7 @@
         "company_name_lower": "европейская электротехника",
         "company_type": "ПАО",
         "BGTickers": [
-            "EELT                "
+            "EELT"
         ],
         "synonims": [
             "Yevropyeyskaya Elyektrotyekhnika",
@@ -846,7 +849,7 @@
         "company_name_lower": "завод имени и.а. лихачева",
         "company_type": "ПАО",
         "BGTickers": [
-            "ZILL                "
+            "ZILL"
         ],
         "synonims": [
             "ZIL",
@@ -874,7 +877,7 @@
         "company_name_lower": "ижсталь",
         "company_type": "ПАО",
         "BGTickers": [
-            "IGST                "
+            "IGST"
         ],
         "synonims": [
             "Izhstal'",
@@ -935,7 +938,7 @@
         "company_name_lower": "институт стволовых клеток человека",
         "company_type": "ПАО",
         "BGTickers": [
-            "ISKJ                "
+            "ISKJ"
         ],
         "synonims": [
             "ИСКЧ",
@@ -1034,7 +1037,7 @@
         "company_name_lower": "кокс",
         "company_type": "ПАО",
         "BGTickers": [
-            "KSGR                "
+            "KSGR"
         ],
         "synonims": [
             "koks",
@@ -1048,7 +1051,7 @@
         "company_name_lower": "корпорация всмпо-ависма",
         "company_type": "ПАО",
         "BGTickers": [
-            "VSMO                "
+            "VSMO"
         ],
         "synonims": [
             "VSMPO-AVISMA",
@@ -1065,7 +1068,7 @@
         "company_name_lower": "коршуновский горно-обогатительный комбинат",
         "company_type": "ПАО",
         "BGTickers": [
-            "KOGK                "
+            "KOGK"
         ],
         "synonims": [
             "Korgok",
@@ -1079,7 +1082,7 @@
         "company_name_lower": "косогорский металлургический завод",
         "company_type": "ПАО",
         "BGTickers": [
-            "KMTZ                "
+            "KMTZ"
         ],
         "synonims": [
             "KGIW",
@@ -1675,7 +1678,7 @@
         "company_name_lower": "энергия",
         "company_type": "ПАО",
         "BGTickers": [
-            "RKKE                "
+            "RKKE"
         ],
         "synonims": [
             "РКК «Энергия»",
@@ -1930,7 +1933,7 @@
         "BGTickers": [
             "SFIN RX"
         ],
-        "synonims": []
+        "synonims": ["сафмар"]
     },
     {
         "issuerid": 150,
