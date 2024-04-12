@@ -2,9 +2,7 @@ import typing as tp
 
 
 EntityScoreType = tp.Tuple[int, float]  # (entity_id, entity_score)
-MessageResultType = tp.List[
-    EntityScoreType
-]  # list of entity scores,
+MessageResultType = tp.List[EntityScoreType]  # list of entity scores,
 #    for example, [(entity_id, entity_score) for entity_id, entity_score in entities_found]
 
 
