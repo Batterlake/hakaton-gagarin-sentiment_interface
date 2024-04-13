@@ -12,8 +12,8 @@ class BERTClassificationModel(pl.LightningModule):
     ):
         super().__init__()
         self.bert = BertModel.from_pretrained(model_name)
-        for param in self.bert.parameters():
-            param.requires_grad = False
+        # for param in self.bert.parameters():
+        #     param.requires_grad = False
         self.issuers_head = nn.Sequential(
             nn.Linear(312, 256),
             nn.ReLU(),
@@ -22,10 +22,10 @@ class BERTClassificationModel(pl.LightningModule):
             nn.Softmax(dim=1),
         )
         self.sentiment_head = nn.Sequential(
-            nn.Linear(312, 128),
+            nn.Linear(312, 512),
             nn.ReLU(),
             nn.Dropout(0.1),
-            nn.Linear(128, num_sentiment_classes),
+            nn.Linear(512, num_issuers_classes * num_sentiment_classes),
             nn.Softmax(dim=1),
         )
 
@@ -33,7 +33,7 @@ class BERTClassificationModel(pl.LightningModule):
         self, issuers_output, issuer_labels, sentiment_output, sentiment_labels
     ):
         return nn.BCELoss()(issuers_output, issuer_labels) + nn.BCELoss()(
-            sentiment_output, sentiment_labels
+            sentiment_output, sentiment_labels.view(sentiment_labels.shape[0], -1)
         )
 
     def forward(self, input_ids, attention_mask):

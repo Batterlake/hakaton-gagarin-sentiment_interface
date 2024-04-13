@@ -17,6 +17,7 @@ def generate_answer_batched(
 ):
     issuer_preds = []
     sentiment_preds = []
+    trained_model.eval()
     with torch.no_grad():
         for _, batch in tqdm(data.groupby(np.arange(len(data)) // batch_size)):
             source_encoding = tokenizer(
@@ -38,8 +39,14 @@ def generate_answer_batched(
                 sentiment_output.cpu(),
             )
 
+            sentiment_pred = sentiment_output.view(
+                sentiment_output.shape[0], 5, -1
+            ).argmax(1)
+            issuer_ids = issuer_output.argmax(1).tolist()
             issuer_preds.append(issuer_output.argmax(1).tolist())
-            sentiment_preds.append(sentiment_output.argmax(1).tolist())
+            sentiment_preds.append(
+                [sentiment_pred[i, idx] for i, idx in enumerate(issuer_ids)]
+            )
 
     return sum(issuer_preds, []), sum(sentiment_preds, [])
 

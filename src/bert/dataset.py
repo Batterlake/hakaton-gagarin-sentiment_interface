@@ -42,7 +42,12 @@ class BERTClassificationDataset(Dataset):
 
     def _one_hot(self, dim, positions):
         vec = torch.zeros(dim)
-        vec[positions] = 1
+        for pos in positions:
+            if isinstance(pos, int):
+                vec[pos] = 1
+            else:
+                vec[pos[0], pos[1]] = 1
+
         return vec
 
     def __getitem__(self, idx: int):
@@ -56,7 +61,10 @@ class BERTClassificationDataset(Dataset):
             return_tensors="pt",
         )
         issuer_labels = self._one_hot(self.num_issuers_classes, sample.issuer_ids)
-        sentiment_labels = self._one_hot(self.num_sentiment_classes, sample.sentiments)
+        sentiment_labels = self._one_hot(
+            (self.num_sentiment_classes, self.num_issuers_classes),
+            list(zip(sample.sentiments, sample.issuer_ids)),
+        )
 
         return {
             "input_ids": encoding["input_ids"].flatten(),
