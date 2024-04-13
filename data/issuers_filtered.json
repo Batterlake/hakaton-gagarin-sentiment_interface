@@ -1,0 +1,3330 @@
+[
+    {
+        "issuerid": 1,
+        "EMITENT_FULL_NAME": "Акционерный коммерческий банк \"Держава\" публичное акционерное общество",
+        "company_name_lower": "держава",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "DERZP"
+        ],
+        "synonims": [
+            "DERZ",
+            "DERZHAVA",
+            "Держава"
+        ]
+    },
+    {
+        "issuerid": 2,
+        "EMITENT_FULL_NAME": "\"МОСКОВСКИЙ КРЕДИТНЫЙ БАНК\" (публичное акционерное общество)",
+        "company_name_lower": "московский кредитный банк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CBOM RX"
+        ],
+        "synonims": [
+            "Credit Bank",
+            "Credit Bank of Moscow",
+            "Московский кредитный банк",
+            "мкб"
+        ]
+    },
+    {
+        "issuerid": 3,
+        "EMITENT_FULL_NAME": "\"Российский акционерный коммерческий дорожный банк\" (публичное акционерное общество)",
+        "company_name_lower": "российский акционерный коммерческий дорожный банк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RDRB"
+        ],
+        "synonims": [
+            "RosDorBank",
+            "Russian public joint-stock commercial roads Bank",
+            "roads Bank",
+            "Дорожный банк",
+            "РДБанк",
+            "РосДорБанк",
+            "Российский акционерный коммерческий дорожный банк"
+        ]
+    },
+    {
+        "issuerid": 4,
+        "EMITENT_FULL_NAME": "Акционерная компания \"АЛРОСА\" (публичное акционерное общество)",
+        "company_name_lower": "алроса",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ALRS RX", 
+            "ALRS"
+        ],
+        "synonims": [
+            "alrosa",
+            "алроса"
+        ]
+    },
+    {
+        "issuerid": 5,
+        "EMITENT_FULL_NAME": "Акционерный Коммерческий банк \"АВАНГАРД\" - публичное акционерное общество",
+        "company_name_lower": "авангард",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "AVAN"
+        ],
+        "synonims": [
+            "AVANGARD",
+            "Авангард"
+        ]
+    },
+    {
+        "issuerid": 6,
+        "EMITENT_FULL_NAME": "акционерный коммерческий банк \"Приморье\"  (публичное акционерное общество)",
+        "company_name_lower": "приморье",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "PRMB"
+        ],
+        "synonims": [
+            "PJSCB \"Primorye\"",
+            "PJSCB Primorye",
+            "bank \"Primorye\"",
+            "bank Primorye",
+            "primbank",
+            "public joint-stock commercial bank \"Primorye\"",
+            "АКБ \"Приморье\"",
+            "АКБ Приморье",
+            "банк \"Приморье\"",
+            "банк Приморье"
+        ]
+    },
+    {
+        "issuerid": 7,
+        "EMITENT_FULL_NAME": "Банк ВТБ (публичное акционерное общество)",
+        "company_name_lower": "банк втб",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VTBR RX"
+        ],
+        "synonims": [
+            "VTB",
+            "ВТБ"
+        ]
+    },
+    {
+        "issuerid": 8,
+        "EMITENT_FULL_NAME": "Иркутское публичное акционерное общество энергетики и электрификации",
+        "company_name_lower": "иркутское энергетики и электрификации",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "IRGZ"
+        ],
+        "synonims": [
+            "Irkutskenergo",
+            "ИркЭнерго",
+            "Иркутскэнерго"
+        ]
+    },
+    {
+        "issuerid": 9,
+        "EMITENT_FULL_NAME": "Казанское публичное акционерное общество \"Органический синтез\"",
+        "company_name_lower": "органический синтез",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KZOS"
+        ],
+        "synonims": [
+            "kazanorgsintez",
+            "Казаньоргсинтез",
+            "Органический синтез"
+        ]
+    },
+    {
+        "issuerid": 10,
+        "EMITENT_FULL_NAME": "Ленское золотодобывающее публичное акционерное общество \"Лензолото\"",
+        "company_name_lower": "лензолото",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "LNZL"
+        ],
+        "synonims": [
+            "Lenzoloto",
+            "Лензолото"
+        ]
+    },
+    {
+        "issuerid": 11,
+        "EMITENT_FULL_NAME": "Международная компания публичное акционерное общество \"Объединённая Компания \"РУСАЛ\"",
+        "company_name_lower": "русал",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RUAL RX"
+        ],
+        "synonims": [
+            "rusal",
+            "Объединённая компания \"Русал\"",
+            "русал"
+        ]
+    },
+    {
+        "issuerid": 12,
+        "EMITENT_FULL_NAME": "Международная компания публичное акционерное общество \"ЭН+ ГРУП\"",
+        "company_name_lower": "эн+ груп",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ENPG RX",
+            "ENPL"
+        ],
+        "synonims": [
+            "EN+ Group Plc",
+            "En+ Group",
+            "эн+ груп"
+        ]
+    },
+    {
+        "issuerid": 13,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Белон\"",
+        "company_name_lower": "белон",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "BLNG"
+        ],
+        "synonims": [
+            "belon",
+            "Белон "
+        ]
+    },
+    {
+        "issuerid": 14,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Донской завод радиодеталей\"",
+        "company_name_lower": "донской завод радиодеталей",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "DZRD"
+        ],
+        "synonims": [
+            "ДЗРД",
+            "Донской завод радиодеталей"
+        ]
+    },
+    {
+        "issuerid": 15,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Левенгук\"",
+        "company_name_lower": "левенгук",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "LVHK"
+        ],
+        "synonims": [
+            "levenhuk",
+            "Левенгук"
+        ]
+    },
+    {
+        "issuerid": 16,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Липецкая энергосбытовая компания\"",
+        "company_name_lower": "липецкая энергосбытовая компания",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "LPSB"
+        ],
+        "synonims": [
+            "LPSBG",
+            "lesk",
+            "ЛЭСК",
+            "Липецкая ЭСК",
+            "Липецкая энергосбытовая компания"
+        ]
+    },
+    {
+        "issuerid": 17,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Межрегиональная распределительная сетевая компания Урала\"",
+        "company_name_lower": "межрегиональная распределительная сетевая компания урала",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "MRKU                "
+        ],
+        "synonims": [
+            "rosseti ural",
+            "МРСК Урала",
+            "Межрегиональная распределительная сетевая компания Урала",
+            "Россети Урал"
+        ]
+    },
+    {
+        "issuerid": 18,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Мультисистема\"",
+        "company_name_lower": "мультисистема",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "MSST"
+        ],
+        "synonims": [
+            "multisistema",
+            "Мультисистема"
+        ]
+    },
+    {
+        "issuerid": 19,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Научно-производственное объединение \"Физика\"",
+        "company_name_lower": "физика",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "NPOF"
+        ],
+        "synonims": [
+            "npofizika",
+            "НПО \"Физика\"",
+            "НПО Физика",
+            "Научно-производственное объединение \"Физика\""
+        ]
+    },
+    {
+        "issuerid": 20,
+        "EMITENT_FULL_NAME": "Открытое акционерное общество \"Соликамский магниевый завод\"",
+        "company_name_lower": "соликамский магниевый завод",
+        "company_type": "ОАО",
+        "BGTickers": [
+            "MGNZ"
+        ],
+        "synonims": [
+            "MGNZG",
+            "ОАО \"СМЗ\"",
+            "ОАО СМЗ",
+            "Соликамский магниевый завод"
+        ]
+    },
+    {
+        "issuerid": 21,
+        "EMITENT_FULL_NAME": "Публичное  акционерное общество \"Русская Аквакультура\"",
+        "company_name_lower": "русская аквакультура",
+        "company_type": null,
+        "BGTickers": [
+            "AQUA"
+        ],
+        "synonims": [
+            "inarctica",
+            "Инаркт1Р1",
+            "Инарктика",
+            "Русская Аквакультура",
+            "Русское море"
+        ]
+    },
+    {
+        "issuerid": 22,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Абрау – Дюрсо\"",
+        "company_name_lower": "абрау – дюрсо",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ABRD"
+        ],
+        "synonims": [
+            "abraudurso",
+            "Абрау Дюрсо",
+            "Абрау – Дюрсо",
+            "Абрау-Дюрсо",
+            "Абрау - Дюрсо"
+        ]
+    },
+    {
+        "issuerid": 23,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Авиакомпания \"ЮТэйр\"",
+        "company_name_lower": "ютэйр",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UTAR"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 24,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Акрон\"",
+        "company_name_lower": "акрон",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "AKRN RX"
+        ],
+        "synonims": [
+            "Acron",
+            "акрон"
+        ]
+    },
+    {
+        "issuerid": 25,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Акционерная нефтяная Компания \"Башнефть\"",
+        "company_name_lower": "башнефть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "BANE RX"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 26,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Акционерная финансовая корпорация \"Система\"",
+        "company_name_lower": "система",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "AFKS RX"
+        ],
+        "synonims": [
+            "АФК Система",
+            "Система"
+        ]
+    },
+    {
+        "issuerid": 27,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"АЛРОСА-Нюрба\"",
+        "company_name_lower": "алроса-нюрба",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ALNU RX"
+        ],
+        "synonims": [
+            "Alrosa",
+            "Алроса"
+        ]
+    },
+    {
+        "issuerid": 28,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Аптечная сеть 36,6\"",
+        "company_name_lower": "аптечная сеть 36,6",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "APTK RX"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 29,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"АСКО-СТРАХОВАНИЕ\"",
+        "company_name_lower": "аско-страхование",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ACKO"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 30,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Астраханская энергосбытовая компания\"",
+        "company_name_lower": "астраханская энергосбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ASSB"
+        ],
+        "synonims": [
+            "Астраханская ЭСБ"
+        ]
+    },
+    {
+        "issuerid": 31,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Ашинский металлургический завод\"",
+        "company_name_lower": "ашинский металлургический завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "AMEZ"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 32,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Аэрофлот – российские авиалинии\"",
+        "company_name_lower": "аэрофлот – российские авиалинии",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "AFLT RX"
+        ],
+        "synonims": [
+            "Aeroflot",
+            "Аэрофлот"
+        ]
+    },
+    {
+        "issuerid": 33,
+        "EMITENT_FULL_NAME": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"БАНК \"САНКТ-ПЕТЕРБУРГ\"",
+        "company_name_lower": "санкт-петербург",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "BSPB RX"
+        ],
+        "synonims": [
+            "БСПБ",
+            "Банк Петербург",
+            "Банк Санкт-Петербург",
+            "СПБ Банк"
+        ]
+    },
+    {
+        "issuerid": 34,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"БАНК УРАЛСИБ\"",
+        "company_name_lower": "банк уралсиб",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "USBN"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 35,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Башинформсвязь\"",
+        "company_name_lower": "башинформсвязь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "BISV"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 36,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Белуга Групп\"",
+        "company_name_lower": "белуга групп",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "BELU RX"
+        ],
+        "synonims": [
+            "Beluga",
+            "Белуга"
+        ]
+    },
+    {
+        "issuerid": 37,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Бест Эффортс Банк\"",
+        "company_name_lower": "бест эффортс банк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ALBK"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 38,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Бурятзолото\"",
+        "company_name_lower": "бурятзолото",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "BRZL"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 39,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Варьеганнефтегаз\"",
+        "company_name_lower": "варьеганнефтегаз",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VJGZ"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 40,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Владимирский химический завод\"",
+        "company_name_lower": "владимирский химический завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VLHZ"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 41,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Волгоградэнергосбыт\"",
+        "company_name_lower": "волгоградэнергосбыт",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VGSB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 42,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Вторая генерирующая компания оптового рынка электроэнергии\"",
+        "company_name_lower": "вторая генерирующая компания оптового рынка электроэнергии",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "OGKB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 43,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Выборгский судостроительный завод\"",
+        "company_name_lower": "выборгский судостроительный завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VSYD"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 44,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ГАЗ\"",
+        "company_name_lower": "газ",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GAZA"
+        ],
+        "synonims": [
+            "ПАО \"Газ\"",
+            "ПАО Газ",
+            "группа \"ГАЗ\"",
+            "группа ГАЗ"
+        ]
+    },
+    {
+        "issuerid": 45,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ГАЗКОН\"",
+        "company_name_lower": "газкон",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GAZC"
+        ],
+        "synonims": [
+            "газкон",
+            "газкон-ао"
+        ]
+    },
+    {
+        "issuerid": 46,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Газпром газораспределение Ростов-на-Дону\"",
+        "company_name_lower": "газпром газораспределение ростов-на-дону",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RTGZ"
+        ],
+        "synonims": [
+            "rostovoblgaz",
+            "Газпром РнД",
+            "ПАО \"Газпром газораспределение Ростов-на-Дону\"",
+            "Ростовоблгаз"
+        ]
+    },
+    {
+        "issuerid": 47,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Газпром нефть\"",
+        "company_name_lower": "газпром нефть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SIBN RX"
+        ],
+        "synonims": [
+            "Gazprom Neft",
+            "Газпром нефть",
+            "ПАО \"Газпром нефть\""
+        ]
+    },
+    {
+        "issuerid": 48,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Газпром\"",
+        "company_name_lower": "газпром",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GAZP RX"
+        ],
+        "synonims": [
+            "Gazprom",
+            "gazp",
+            "Газпром",
+            "ПАО \"Газпром\""
+        ]
+    },
+    {
+        "issuerid": 49,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ГАЗ-сервис\"",
+        "company_name_lower": "газ-сервис",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GAZS"
+        ],
+        "synonims": [
+            "gas-service",
+            "ПАО \"ГАЗ-сервис\""
+        ]
+    },
+    {
+        "issuerid": 50,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ГАЗ-Тек\"",
+        "company_name_lower": "газ-тек",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "gazt"
+        ],
+        "synonims": [
+            "gaz-tec",
+            "газ-тэк"
+        ]
+    },
+    {
+        "issuerid": 51,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ГЕОТЕК Сейсморазведка\"",
+        "company_name_lower": "геотек сейсморазведка",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GTSS"
+        ],
+        "synonims": [
+            "gseis",
+            "ПАО «ГЕОТЕК Сейсморазведка»",
+            "геотек"
+        ]
+    },
+    {
+        "issuerid": 52,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ГЛОБАЛТРАК МЕНЕДЖМЕНТ\"",
+        "company_name_lower": "глобалтрак менеджмент",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GTRK"
+        ],
+        "synonims": [
+            "Globaltruck",
+            "Глобалтрак"
+        ]
+    },
+    {
+        "issuerid": 53,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Горно-металлургическая компания \"Норильский никель\"",
+        "company_name_lower": "норильский никель",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GMKN RX"
+        ],
+        "synonims": [
+            "Nornickel ",
+            "Норильский никель",
+            "Норникель",
+            "ПАО \"ГМК \"Норильский никель\"",
+            "ПАО \"Горно-металлургическая компания \"Норильский никель\""
+        ]
+    },
+    {
+        "issuerid": 54,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Городские Инновационные Технологии\"",
+        "company_name_lower": "городские инновационные технологии",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GRNT"
+        ],
+        "synonims": [
+            "ГИТ",
+            "Городские Инновационные Технологии",
+            "ПАО \"ГИТ\"",
+            "ПАО «Городские Инновационные Технологии"
+        ]
+    },
+    {
+        "issuerid": 55,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Группа Компаний  \"Роллман\"",
+        "company_name_lower": "роллман",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RLMN"
+        ],
+        "synonims": [
+            "Rollman",
+            "Роллман"
+        ]
+    },
+    {
+        "issuerid": 56,
+        "EMITENT_FULL_NAME": "публичное акционерное общество \"Группа компаний \"Самолет\"",
+        "company_name_lower": "самолет",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SMLT RX"
+        ],
+        "synonims": [
+            "Samolet",
+            "Самолет",
+            "группа самолет"
+        ]
+    },
+    {
+        "issuerid": 57,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Группа ЛСР\"",
+        "company_name_lower": "группа лср",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "LSRG RX"
+        ],
+        "synonims": [
+            "ЛСР"
+        ]
+    },
+    {
+        "issuerid": 58,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Группа Черкизово\"",
+        "company_name_lower": "группа черкизово",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GCHE RX "
+        ],
+        "synonims": [
+            "Cherkizovo",
+            "Черкизово"
+        ]
+    },
+    {
+        "issuerid": 59,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Дагестанская энергосбытовая компания\"",
+        "company_name_lower": "дагестанская энергосбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "DASB"
+        ],
+        "synonims": [
+            "Dagestanskaya Energosbytovaya",
+            "ДагСб",
+            "Дагестанэнергосбыт"
+        ]
+    },
+    {
+        "issuerid": 60,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Дальневосточная энергетическая компания\"",
+        "company_name_lower": "дальневосточная энергетическая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "DVEC"
+        ],
+        "synonims": [
+            "ДЭК",
+            "Дальневосточная энергетическая компания"
+        ]
+    },
+    {
+        "issuerid": 61,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Дальневосточное морское пароходство\"",
+        "company_name_lower": "дальневосточное морское пароходство",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "FESH"
+        ],
+        "synonims": [
+            "FESCO",
+            "ДВМП",
+            "Дальневосточное морское пароходство"
+        ]
+    },
+    {
+        "issuerid": 62,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Детский мир\"",
+        "company_name_lower": "детский мир",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "DSKY RX"
+        ],
+        "synonims": [
+            "Detsky Mir",
+            "Детмир",
+            "Детский мир"
+        ]
+    },
+    {
+        "issuerid": 63,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ДжиТиЭл\"",
+        "company_name_lower": "джитиэл",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GTLC "
+        ],
+        "synonims": [
+            "GTL",
+            "ДжиТиЭл"
+        ]
+    },
+    {
+        "issuerid": 64,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Европейская Электротехника\"",
+        "company_name_lower": "европейская электротехника",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "EELT"
+        ],
+        "synonims": [
+            "Yevropyeyskaya Elyektrotyekhnika",
+            "Европейская Электротехника"
+        ]
+    },
+    {
+        "issuerid": 65,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Завод имени И.А. Лихачева\"",
+        "company_name_lower": "завод имени и.а. лихачева",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ZILL"
+        ],
+        "synonims": [
+            "ZIL",
+            "ЗИЛ",
+            "Завод имени И.А. Лихачева",
+            "Завод имени Лихачёва "
+        ]
+    },
+    {
+        "issuerid": 66,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ЗВЕЗДА\"",
+        "company_name_lower": "звезда",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ZVEZ"
+        ],
+        "synonims": [
+            "ZVEZDA",
+            "Звезда"
+        ]
+    },
+    {
+        "issuerid": 67,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Ижсталь\"",
+        "company_name_lower": "ижсталь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "IGST"
+        ],
+        "synonims": [
+            "Izhstal'",
+            "Ижевский металлургический завод",
+            "Ижсталь"
+        ]
+    },
+    {
+        "issuerid": 68,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ИНВЕСТ-ДЕВЕЛОПМЕНТ\"",
+        "company_name_lower": "инвест-девелопмент",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "IDVP"
+        ],
+        "synonims": [
+            "invest-development",
+            "инвест-девелопмент"
+        ]
+    },
+    {
+        "issuerid": 69,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ИНВЕСТИЦИОННАЯ КОМПАНИЯ ИК РУСС-ИНВЕСТ\"",
+        "company_name_lower": "инвестиционная компания ик русс-инвест",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RUSI"
+        ],
+        "synonims": [
+            "Russ-Invest",
+            "Russinvest ",
+            "ИК Русс-Инвест ",
+            "Русс-Инвест",
+            "Русс-Инвест ИК",
+            "Руссинвест"
+        ]
+    },
+    {
+        "issuerid": 70,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ИНГРАД\"",
+        "company_name_lower": "инград",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "INGR RX",
+            "OPIN"
+        ],
+        "synonims": [
+            "Ingr",
+            "Ingrad ",
+            "Инград",
+            "Инград (ПАО)",
+            "ПАО Инград"
+        ]
+    },
+    {
+        "issuerid": 71,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Институт Стволовых Клеток Человека\"",
+        "company_name_lower": "институт стволовых клеток человека",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ISKJ"
+        ],
+        "synonims": [
+            "ИСКЧ",
+            "Институт Стволовых Клеток Человека"
+        ]
+    },
+    {
+        "issuerid": 72,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Интер РАО ЕЭС\"",
+        "company_name_lower": "интер рао еэс",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "IRAO RX"
+        ],
+        "synonims": [
+            "Inter Rao",
+            "Интер РАО ",
+            "Интер РАО ЕЭС Финанс"
+        ]
+    },
+    {
+        "issuerid": 73,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Калужская сбытовая компания\"",
+        "company_name_lower": "калужская сбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KLSB"
+        ],
+        "synonims": [
+            "Kalujskaya Sbytovaya",
+            "КЛСБ",
+            "КСК",
+            "Калужская СбытКомп",
+            "Калужская сбытовая компания"
+        ]
+    },
+    {
+        "issuerid": 74,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"КАМАЗ\"",
+        "company_name_lower": "камаз",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KMAZ RX"
+        ],
+        "synonims": [
+            "Kamaz ",
+            "Камаз"
+        ]
+    },
+    {
+        "issuerid": 75,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Каменск-Уральский завод по обработке цветных металлов\"",
+        "company_name_lower": "каменск-уральский завод по обработке цветных металлов",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KUNF"
+        ],
+        "synonims": [
+            "Kuzocm",
+            "Кузоцм"
+        ]
+    },
+    {
+        "issuerid": 76,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Квадра - Генерирующая компания\"",
+        "company_name_lower": "квадра - генерирующая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TGKD"
+        ],
+        "synonims": [
+            "quadra",
+            "АО Квадра",
+            "квадра",
+            "пао квадра"
+        ]
+    },
+    {
+        "issuerid": 77,
+        "EMITENT_FULL_NAME": "публичное акционерное общество \"Ковровский механический завод\"",
+        "company_name_lower": "ковровский механический завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KMEZ"
+        ],
+        "synonims": [
+            "kvmz",
+            "Ковровский механический завод",
+            "Ковровский мехзд",
+            "ПАО КМЗ"
+        ]
+    },
+    {
+        "issuerid": 78,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Кокс\"",
+        "company_name_lower": "кокс",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KSGR"
+        ],
+        "synonims": [
+            "koks",
+            "ПАО кокс",
+            "кокс"
+        ]
+    },
+    {
+        "issuerid": 79,
+        "EMITENT_FULL_NAME": "публичное акционерное общество \"Корпорация ВСМПО-АВИСМА\"",
+        "company_name_lower": "корпорация всмпо-ависма",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VSMO"
+        ],
+        "synonims": [
+            "VSMPO-AVISMA",
+            "VSMPO-AVISMA Corporation",
+            "ВСМПО",
+            "ВСМПО-АВИСМА",
+            "ВСМПО-АВСМ",
+            "Корпорация ВСМПО-АВИСМА"
+        ]
+    },
+    {
+        "issuerid": 80,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Коршуновский горно-обогатительный комбинат\"",
+        "company_name_lower": "коршуновский горно-обогатительный комбинат",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KOGK"
+        ],
+        "synonims": [
+            "Korgok",
+            "Korshunov Mining Plant",
+            "Коршуновский гок"
+        ]
+    },
+    {
+        "issuerid": 81,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Косогорский металлургический завод\"",
+        "company_name_lower": "косогорский металлургический завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KMTZ"
+        ],
+        "synonims": [
+            "KGIW",
+            "Косогорский металлургический завод",
+            "ПАО КМЗ"
+        ]
+    },
+    {
+        "issuerid": 82,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Костромская сбытовая компания\"",
+        "company_name_lower": "костромская сбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KTSB"
+        ],
+        "synonims": [
+            "KSK",
+            "Kostromskaya sbytovaya kompaniya",
+            "КСК",
+            "Костромская сбытовая компания"
+        ]
+    },
+    {
+        "issuerid": 83,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Краснокамский завод металлических сеток\"",
+        "company_name_lower": "краснокамский завод металлических сеток",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KZMS"
+        ],
+        "synonims": [
+            "Rosset",
+            "КЗМС",
+            "Краснокамский завод металлических сеток",
+            "Россет"
+        ]
+    },
+    {
+        "issuerid": 84,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Красноярскэнергосбыт\"",
+        "company_name_lower": "красноярскэнергосбыт",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KRSB"
+        ],
+        "synonims": [
+            "krsk-sbit",
+            "Красноярскэнергосбыт"
+        ]
+    },
+    {
+        "issuerid": 85,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Кузбасская Топливная Компания\"",
+        "company_name_lower": "кузбасская топливная компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KBTK"
+        ],
+        "synonims": [
+            "KTK",
+            "КТК",
+            "Кузбасская топливная компания",
+            "ПАО КТК"
+        ]
+    },
+    {
+        "issuerid": 86,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"КуйбышевАзот\"",
+        "company_name_lower": "куйбышевазот",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KAZT"
+        ],
+        "synonims": [
+            "kuazot",
+            "Куйбазот",
+            "КуйбышевАзот"
+        ]
+    },
+    {
+        "issuerid": 87,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Курганская генерирующая компания\"",
+        "company_name_lower": "курганская генерирующая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KGKC"
+        ],
+        "synonims": [
+            "KGK",
+            "Kurgancskaya Generiruyushaya",
+            "КГК",
+            "Курганская ГК",
+            "Курганская генерирующая компания",
+            "ПАО КГК"
+        ]
+    },
+    {
+        "issuerid": 88,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"М.видео\"",
+        "company_name_lower": "м.видео",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MVID RX"
+        ],
+        "synonims": [
+            "Mvideo",
+            "Мвидео"
+        ]
+    },
+    {
+        "issuerid": 89,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Магнит\"",
+        "company_name_lower": "магнит",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MGNT RX"
+        ],
+        "synonims": [
+            "Magnit ",
+            "Mgnt ",
+            "Магнит ",
+            "Магнит ПАО",
+            "ПАО Магнит"
+        ]
+    },
+    {
+        "issuerid": 90,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Магнитогорский металлургический комбинат\"",
+        "company_name_lower": "магнитогорский металлургический комбинат",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MAGN RX"
+        ],
+        "synonims": [
+            "Magnitigorskiy Metallurgicheskiy",
+            "ММК",
+            "Магнитка",
+            "Магнитогорский металлургический комбинат"
+        ]
+    },
+    {
+        "issuerid": 91,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"МегаФон\"",
+        "company_name_lower": "мегафон",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MFON RX"
+        ],
+        "synonims": [
+            "Megafon",
+            "Мегафон",
+            "Мегафон ПАО",
+            "ПАО Мегафон"
+        ]
+    },
+    {
+        "issuerid": 92,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Медиахолдинг\"",
+        "company_name_lower": "медиахолдинг",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ODVA"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 93,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Международный Медицинский Центр Обработки и Криохранения Биоматериалов\"",
+        "company_name_lower": "международный медицинский центр обработки и криохранения биоматериалов",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "GEMA"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 94,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Межрегиональная распределительная сетевая компания Северо-Запада\"",
+        "company_name_lower": "межрегиональная распределительная сетевая компания северо-запада",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRKZ"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 95,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Межрегиональная распределительная сетевая компания Центра и Приволжья\"",
+        "company_name_lower": "межрегиональная распределительная сетевая компания центра и приволжья",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRKP"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 96,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Межрегиональная распределительная сетевая компания Центра\"",
+        "company_name_lower": "межрегиональная распределительная сетевая компания центра",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRKC"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 97,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"МЕРИДИАН\"",
+        "company_name_lower": "меридиан",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MERF"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 98,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"МЕТКОМБАНК\"",
+        "company_name_lower": "меткомбанк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MTKB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 99,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Мечел\"",
+        "company_name_lower": "мечел",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MTLR RX"
+        ],
+        "synonims": [
+            "mechel",
+            "mtlrp",
+            "мечел"
+        ]
+    },
+    {
+        "issuerid": 100,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Мобильные ТелеСистемы\"",
+        "company_name_lower": "мобильные телесистемы",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MTSS RX"
+        ],
+        "synonims": [
+            "MTC",
+            "МТС"
+        ]
+    },
+    {
+        "issuerid": 101,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Мордовская энергосбытовая компания\"",
+        "company_name_lower": "мордовская энергосбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRSB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 102,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Морион\"",
+        "company_name_lower": "морион",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MORI"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 103,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Московская Биржа ММВБ-РТС\"",
+        "company_name_lower": "московская биржа ммвб-ртс",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MOEX RX"
+        ],
+        "synonims": [
+            "Мосбиржа",
+            "Московская биржа"
+        ]
+    },
+    {
+        "issuerid": 104,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Московская городская телефонная сеть\"",
+        "company_name_lower": "московская городская телефонная сеть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MGTS RX "
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 105,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Московская кондитерская фабрика \"Красный Октябрь\"",
+        "company_name_lower": "красный октябрь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KROT"
+        ],
+        "synonims": [
+            "KROTP"
+        ]
+    },
+    {
+        "issuerid": 106,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"МОСТОТРЕСТ\"",
+        "company_name_lower": "мостотрест",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "mstt"
+        ],
+        "synonims": [
+            "мостотрест"
+        ]
+    },
+    {
+        "issuerid": 107,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Наука-Связь\"",
+        "company_name_lower": "наука-связь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NSVZ"
+        ],
+        "synonims": [
+            "наука-связь"
+        ]
+    },
+    {
+        "issuerid": 108,
+        "EMITENT_FULL_NAME": "публичное акционерное общество \"Научно-производственная корпорация \"Иркут\"",
+        "company_name_lower": "иркут",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "IRKT RX"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 109,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Научно-производственная корпорация \"Объединенная Вагонная Компания\"",
+        "company_name_lower": "объединенная вагонная компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UWGN RX"
+        ],
+        "synonims": [
+            "Объединенная Вагонная Компания"
+        ]
+    },
+    {
+        "issuerid": 110,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Нефтекамский автозавод\"",
+        "company_name_lower": "нефтекамский автозавод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NFAZ"
+        ],
+        "synonims": [
+            "Нефтекамский автозавод",
+            "нефаз"
+        ]
+    },
+    {
+        "issuerid": 111,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Нефтяная компания \"ЛУКОЙЛ\"",
+        "company_name_lower": "лукойл",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "LKOH RX"
+        ],
+        "synonims": [
+            "ЛУКОЙЛ"
+        ]
+    },
+    {
+        "issuerid": 112,
+        "EMITENT_FULL_NAME": "публичное акционерное общество \"Нефтяная компания \"Роснефть\"",
+        "company_name_lower": "роснефть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ROSN RX"
+        ],
+        "synonims": [
+            "rosneft",
+            "роснефть"
+        ]
+    },
+    {
+        "issuerid": 113,
+        "EMITENT_FULL_NAME": "Публичное Акционерное Общество \"Нижнекамскнефтехим\"",
+        "company_name_lower": "нижнекамскнефтехим",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NKNCP",
+            "NKNC"
+        ],
+        "synonims": [
+            "Нижнекамскнефтехим"
+        ]
+    },
+    {
+        "issuerid": 114,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Нижнекамскшина\"",
+        "company_name_lower": "нижнекамскшина",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NKSHP",
+            "NKSH"
+        ],
+        "synonims": [
+            "Нижнекамскшина"
+        ]
+    },
+    {
+        "issuerid": 115,
+        "EMITENT_FULL_NAME": "публичное акционерное общество \"НОВАТЭК\"",
+        "company_name_lower": "новатэк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NVTK RX"
+        ],
+        "synonims": [
+            "Novatek",
+            "Новатэк"
+        ]
+    },
+    {
+        "issuerid": 116,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Новолипецкий металлургический комбинат\"",
+        "company_name_lower": "новолипецкий металлургический комбинат",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NLMK RX"
+        ],
+        "synonims": [
+            "НЛМК"
+        ]
+    },
+    {
+        "issuerid": 117,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Новороссийский комбинат хлебопродуктов\"",
+        "company_name_lower": "новороссийский комбинат хлебопродуктов",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NKHP"
+        ],
+        "synonims": [
+            "нкхп",
+            "новороссийский комбинат хлебопродуктов"
+        ]
+    },
+    {
+        "issuerid": 118,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Новороссийский морской торговый порт\"",
+        "company_name_lower": "новороссийский морской торговый порт",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "nmtp"
+        ],
+        "synonims": [
+            "нмтп",
+            "новороссийский морской порт",
+            "новороссийский морской торговый порт"
+        ]
+    },
+    {
+        "issuerid": 119,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Новороссийское морское пароходство\"",
+        "company_name_lower": "новороссийское морское пароходство",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "nompp"
+        ],
+        "synonims": [
+            "новороссийское морское пароходство",
+            "новошип"
+        ]
+    },
+    {
+        "issuerid": 120,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Объединенная авиастроительная корпорация\"",
+        "company_name_lower": "объединенная авиастроительная корпорация",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UNAC RX"
+        ],
+        "synonims": [
+            "ПАО \"ОАК\"",
+            "ПАО ОАК",
+            "объединенная авиастроительная корпорация"
+        ]
+    },
+    {
+        "issuerid": 121,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Объединенные Кредитные Системы\"",
+        "company_name_lower": "объединенные кредитные системы",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UCSS"
+        ],
+        "synonims": [
+            "Кредитные системы",
+            "Объединенные Кредитные Системы"
+        ]
+    },
+    {
+        "issuerid": 122,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ОДК-Сатурн\"",
+        "company_name_lower": "одк-сатурн",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SATR"
+        ],
+        "synonims": [
+            "ОДК Сатурн",
+            "ОДК-Сатурн",
+            "ОДК_Сатурн",
+            "Сатурн"
+        ]
+    },
+    {
+        "issuerid": 123,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ОР\"",
+        "company_name_lower": "ор",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ORUP"
+        ],
+        "synonims": [
+            "ОР ГРУПП",
+            "ПАО ОР"
+        ]
+    },
+    {
+        "issuerid": 124,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Павловский автобус\"",
+        "company_name_lower": "павловский автобус",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "paza"
+        ],
+        "synonims": [
+            "Павл Автобус",
+            "ПавлБус",
+            "Павловский автобус"
+        ]
+    },
+    {
+        "issuerid": 125,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Пермская энергосбытовая компания\"",
+        "company_name_lower": "пермская энергосбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "PMSBP",
+            "PMSB"
+        ],
+        "synonims": [
+            "ПЕРМЭНЕРГОСБЫТ",
+            "Пермская энергосбытовая компания"
+        ]
+    },
+    {
+        "issuerid": 126,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ПИК-специализированный застройщик\"",
+        "company_name_lower": "пик-специализированный застройщик",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "PIKK RX"
+        ],
+        "synonims": [
+            "ПИК СЗ"
+        ]
+    },
+    {
+        "issuerid": 127,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Полюс\"",
+        "company_name_lower": "полюс",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "PLZL RX"
+        ],
+        "synonims": [
+            "Полюс"
+        ]
+    },
+    {
+        "issuerid": 128,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Ракетно-космическая корпорация \"Энергия\" имени С.П. Королёва\"",
+        "company_name_lower": "энергия",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RKKE"
+        ],
+        "synonims": [
+            "РКК «Энергия»",
+            "РКК Энергия",
+            "Энергия"
+        ]
+    },
+    {
+        "issuerid": 129,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Распадская\"",
+        "company_name_lower": "распадская",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RASP RX "
+        ],
+        "synonims": [
+            "ПАО «Распадская»",
+            "Распадская"
+        ]
+    },
+    {
+        "issuerid": 130,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"РБК\"",
+        "company_name_lower": "рбк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RBCM"
+        ],
+        "synonims": [
+            "ГК «РосБизнесКонсалтинг»",
+            "Рос Бизнес Консалтинг",
+            "РосБизнесКонсалтинг"
+        ]
+    },
+    {
+        "issuerid": 131,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"РН-Западная Сибирь\"",
+        "company_name_lower": "рн-западная сибирь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CHGZ"
+        ],
+        "synonims": [
+            "РН-Западная Сибирь"
+        ]
+    },
+    {
+        "issuerid": 132,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Росгосстрах Банк\"",
+        "company_name_lower": "росгосстрах банк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RGSC"
+        ],
+        "synonims": [
+            "Банк Росгосстрах",
+            "РГС Банк",
+            "Росгосстрах",
+            "Росгосстрах Банк"
+        ]
+    },
+    {
+        "issuerid": 133,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"РОСИНТЕР РЕСТОРАНТС ХОЛДИНГ\"",
+        "company_name_lower": "росинтер ресторантс холдинг",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ROST"
+        ],
+        "synonims": [
+            "Rosinter",
+            "РОСИНТЕР",
+            "РОСИНТЕР РЕСТОРАНТС ХОЛДИНГ"
+        ]
+    },
+    {
+        "issuerid": 134,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Волга\"",
+        "company_name_lower": "россети волга",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "mrkv"
+        ],
+        "synonims": [
+            "Россети Волга"
+        ]
+    },
+    {
+        "issuerid": 135,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Кубань\"",
+        "company_name_lower": "россети кубань",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "kube"
+        ],
+        "synonims": [
+            "Россети Кубань"
+        ]
+    },
+    {
+        "issuerid": 136,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Ленэнерго\"",
+        "company_name_lower": "россети ленэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "lsng"
+        ],
+        "synonims": [
+            "Россети Ленэнерго"
+        ]
+    },
+    {
+        "issuerid": 137,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Московский регион\"",
+        "company_name_lower": "россети московский регион",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MSRS                "
+        ],
+        "synonims": [
+            "Россети Московский регион"
+        ]
+    },
+    {
+        "issuerid": 138,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Северный Кавказ\"",
+        "company_name_lower": "россети северный кавказ",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRKK                "
+        ],
+        "synonims": [
+            "Россети Северный Кавказ"
+        ]
+    },
+    {
+        "issuerid": 139,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Сибирь\"",
+        "company_name_lower": "россети сибирь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRKS"
+        ],
+        "synonims": [
+            "Россети Сибирь"
+        ]
+    },
+    {
+        "issuerid": 140,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Россети Юг\"",
+        "company_name_lower": "россети юг",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MRKY"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 141,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Российские сети\"",
+        "company_name_lower": "российские сети",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RSTI RX"
+        ],
+        "synonims": [
+            "Российские сети"
+        ]
+    },
+    {
+        "issuerid": 142,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Ростелеком\"",
+        "company_name_lower": "ростелеком",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RTKM RX"
+        ],
+        "synonims": [
+            "ростелеком"
+        ]
+    },
+    {
+        "issuerid": 143,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Русгрэйн Холдинг\"",
+        "company_name_lower": "русгрэйн холдинг",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RUGR                "
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 144,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Русолово\"",
+        "company_name_lower": "русолово",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ROLO                "
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 145,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Русполимет\"",
+        "company_name_lower": "русполимет",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RUSP                "
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 146,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Рязанская энергетическая сбытовая компания\"",
+        "company_name_lower": "рязанская энергетическая сбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RZSB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 147,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Саратовский нефтеперерабатывающий завод\"",
+        "company_name_lower": "саратовский нефтеперерабатывающий завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KRKN"
+        ],
+        "synonims": [
+            "KRKNP"
+        ]
+    },
+    {
+        "issuerid": 148,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Саратовэнерго\"",
+        "company_name_lower": "саратовэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SAREP",
+            "SARE"
+        ],
+        "synonims": [
+            "Саратовэнерго"
+        ]
+    },
+    {
+        "issuerid": 149,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"САФМАР Финансовые инвестиции\"",
+        "company_name_lower": "сафмар финансовые инвестиции",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SFIN RX"
+        ],
+        "synonims": ["сафмар"]
+    },
+    {
+        "issuerid": 150,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Сбербанк России\"",
+        "company_name_lower": "сбербанк россии",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SBER RX"
+        ],
+        "synonims": [
+            "Sber",
+            "Sberbank",
+            "сбер",
+            "сбербанк "
+        ]
+    },
+    {
+        "issuerid": 151,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Светофор Групп\"",
+        "company_name_lower": "светофор групп",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SVET"
+        ],
+        "synonims": [
+            "Группа светофор",
+            "Светофор Групп"
+        ]
+    },
+    {
+        "issuerid": 152,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Северсталь\"",
+        "company_name_lower": "северсталь",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CHMF RX"
+        ],
+        "synonims": [
+            "северсталь"
+        ]
+    },
+    {
+        "issuerid": 153,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Селигдар\"",
+        "company_name_lower": "селигдар",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SELG                "
+        ],
+        "synonims": [
+            "селигдар"
+        ]
+    },
+    {
+        "issuerid": 154,
+        "EMITENT_FULL_NAME": "Публичное Акционерное Общество \"Сибирский гостинец\"",
+        "company_name_lower": "сибирский гостинец",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SIBG"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 155,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Славнефть - Мегионнефтегаз\"",
+        "company_name_lower": "славнефть - мегионнефтегаз",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MFGS"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 156,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Славнефть-Ярославнефтеоргсинтез\"",
+        "company_name_lower": "славнефть-ярославнефтеоргсинтез",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "JNOS"
+        ],
+        "synonims": [
+            "JNOSP"
+        ]
+    },
+    {
+        "issuerid": 157,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Современный коммерческий флот\"",
+        "company_name_lower": "современный коммерческий флот",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "FLOT RX"
+        ],
+        "synonims": [
+            "совкомфлот"
+        ]
+    },
+    {
+        "issuerid": 158,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"СОЛЛЕРС\"",
+        "company_name_lower": "соллерс",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SVAV RX"
+        ],
+        "synonims": [
+            "sollers",
+            "северсталь-авто",
+            "соллерс"
+        ]
+    },
+    {
+        "issuerid": 159,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Ставропольэнергосбыт\"",
+        "company_name_lower": "ставропольэнергосбыт",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "STSB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 160,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Сургутнефтегаз\"",
+        "company_name_lower": "сургутнефтегаз",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SNGS RX"
+        ],
+        "synonims": [
+            "сургутнефтегаз"
+        ]
+    },
+    {
+        "issuerid": 161,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Таганрогский котлостроительный завод \"Красный котельщик\"",
+        "company_name_lower": "красный котельщик",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KRKOP"
+        ],
+        "synonims": [
+            "Krasny Kotelshchik",
+            "PJSC Krasny Kotelshchik",
+            "Красный котельщик ",
+            "ткз \"Красный котельщик\"",
+            "ткз Красный котельщик"
+        ]
+    },
+    {
+        "issuerid": 162,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Тамбовская энергосбытовая компания\"",
+        "company_name_lower": "тамбовская энергосбытовая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TASBP"
+        ],
+        "synonims": [
+            "TASB",
+            "Тамбовская энергосбытовая компания",
+            "Тамбовэнергосбыт"
+        ]
+    },
+    {
+        "issuerid": 163,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Татнефть\" имени В.Д. Шашина",
+        "company_name_lower": "татнефть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TATN RX"
+        ],
+        "synonims": [
+            "Tatneft",
+            "Татнефть"
+        ]
+    },
+    {
+        "issuerid": 164,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Таттелеком\"",
+        "company_name_lower": "таттелеком",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TTLK                "
+        ],
+        "synonims": [
+            "tattelecom",
+            "Таттелеком"
+        ]
+    },
+    {
+        "issuerid": 165,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Территориальная генерирующая компания № 14\"",
+        "company_name_lower": "территориальная генерирующая компания № 14",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TGKN                "
+        ],
+        "synonims": [
+            "TGC-14",
+            "TGK-14",
+            "ТГК-14"
+        ]
+    },
+    {
+        "issuerid": 166,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Территориальная генерирующая компания №1\"",
+        "company_name_lower": "территориальная генерирующая компания №1",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TGKA                "
+        ],
+        "synonims": [
+            "TGC-1",
+            "TGK-1",
+            "ТГК-1"
+        ]
+    },
+    {
+        "issuerid": 167,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Территориальная генерирующая компания №2\"",
+        "company_name_lower": "территориальная генерирующая компания №2",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TGKB"
+        ],
+        "synonims": [
+            "TGC-2",
+            "TGK-2",
+            "ТГК-2"
+        ]
+    },
+    {
+        "issuerid": 168,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТНС энерго Воронеж\"",
+        "company_name_lower": "тнс энерго воронеж",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VRSB"
+        ],
+        "synonims": [
+            "VRSBP",
+            "ТНС энерго Воронеж"
+        ]
+    },
+    {
+        "issuerid": 169,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТНС энерго Кубань\"",
+        "company_name_lower": "тнс энерго кубань",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KBSB"
+        ],
+        "synonims": [
+            "KBSBP",
+            "ТНС энерго Кубань"
+        ]
+    },
+    {
+        "issuerid": 170,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТНС энерго Марий Эл\"",
+        "company_name_lower": "тнс энерго марий эл",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MISB"
+        ],
+        "synonims": [
+            "MISBP",
+            "ТНС энерго Марий Эл"
+        ]
+    },
+    {
+        "issuerid": 171,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТНС энерго Нижний Новгород\"",
+        "company_name_lower": "тнс энерго нижний новгород",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NNSB"
+        ],
+        "synonims": [
+            "NNSB",
+            "NNSBP",
+            "ТНС энерго Нижний Новг",
+            "ТНС энерго Нижний Новгород"
+        ]
+    },
+    {
+        "issuerid": 172,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТНС энерго Ростов-на-Дону\"",
+        "company_name_lower": "тнс энерго ростов-на-дону",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RTSB"
+        ],
+        "synonims": [
+            "RTSB",
+            "RTSBP",
+            "ТНС энерго Ростов",
+            "ТНС энерго Ростов-на-Дону"
+        ]
+    },
+    {
+        "issuerid": 173,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТНС энерго Ярославль\"",
+        "company_name_lower": "тнс энерго ярославль",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "YRSB"
+        ],
+        "synonims": [
+            "YRSB",
+            "YRSBP",
+            "ТНС энерго Ярославль"
+        ]
+    },
+    {
+        "issuerid": 174,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Томская распределительная компания\"",
+        "company_name_lower": "томская распределительная компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TORS"
+        ],
+        "synonims": [
+            "TORS",
+            "Россети Томск",
+            "ТРК",
+            "Томская распределительная компания"
+        ]
+    },
+    {
+        "issuerid": 175,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Транснефть\"",
+        "company_name_lower": "транснефть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TRNFP RX"
+        ],
+        "synonims": [
+            "transneft",
+            "Транснефть"
+        ]
+    },
+    {
+        "issuerid": 176,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ТрансФин-М\"",
+        "company_name_lower": "трансфин-м",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TRFM"
+        ],
+        "synonims": [
+            "transfin",
+            "ТрансФин"
+        ]
+    },
+    {
+        "issuerid": 177,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Трубная Металлургическая Компания\"",
+        "company_name_lower": "трубная металлургическая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TRMK RX"
+        ],
+        "synonims": [
+            "OAO TMK",
+            "TMK",
+            "ТМК",
+            "Трубная Металлургическая Компания"
+        ]
+    },
+    {
+        "issuerid": 178,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Туймазинский завод автобетоновозов\"",
+        "company_name_lower": "туймазинский завод автобетоновозов",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TUZA"
+        ],
+        "synonims": [
+            "ПАО «ТЗА»",
+            "ПАО ТЗА",
+            "Туймазинский завод автобетоновозов",
+            "не TZA -- есть американский тикер",
+            "тза"
+        ]
+    },
+    {
+        "issuerid": 179,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Тучковский комбинат строительных материалов\"",
+        "company_name_lower": "тучковский комбинат строительных материалов",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TUCH"
+        ],
+        "synonims": [
+            "ТКСМ",
+            "Тучковский КСМ"
+        ]
+    },
+    {
+        "issuerid": 180,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Угольная компания \"Южный Кузбасс\"",
+        "company_name_lower": "южный кузбасс",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UKUZ"
+        ],
+        "synonims": [
+            "Southern Kuzbass Coal Company",
+            "ПАО «Южный Кузбасс»",
+            "ПАО Южный Кузбасс",
+            "Южный Кузбасс"
+        ]
+    },
+    {
+        "issuerid": 181,
+        "EMITENT_FULL_NAME": "ПУБЛИЧНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО \"УПРАВЛЯЮЩАЯ КОМПАНИЯ \"АРСАГЕРА\"",
+        "company_name_lower": "арсагера",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ARSA"
+        ],
+        "synonims": [
+            "ARSA",
+            "arsagera(не встречал упоминаний)",
+            "Арсагера"
+        ]
+    },
+    {
+        "issuerid": 182,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Уралкалий\"",
+        "company_name_lower": "уралкалий",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "URKA RX"
+        ],
+        "synonims": [
+            "URKA",
+            "uralkali",
+            "Уралкалий"
+        ]
+    },
+    {
+        "issuerid": 183,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Уральская кузница\"",
+        "company_name_lower": "уральская кузница",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "URKZ                "
+        ],
+        "synonims": [
+            "Urals Stampings Plant",
+            "Уральская кузница"
+        ]
+    },
+    {
+        "issuerid": 184,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Фармсинтез\"",
+        "company_name_lower": "фармсинтез",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "LIFE                "
+        ],
+        "synonims": [
+            "Pharmsynthez",
+            "ПАО Фармсинтез",
+            "Фарм-синтез",
+            "Фармсинтез"
+        ]
+    },
+    {
+        "issuerid": 185,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Федеральная гидрогенерирующая компания - РусГидро\"",
+        "company_name_lower": "федеральная гидрогенерирующая компания - русгидро",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "HYDR RX"
+        ],
+        "synonims": [
+            "RusHydro",
+            "ПАО РусГидро",
+            "Русгидро"
+        ]
+    },
+    {
+        "issuerid": 186,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Федеральная сетевая компания Единой энергетической системы\"",
+        "company_name_lower": "федеральная сетевая компания единой энергетической системы",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "FEES RX"
+        ],
+        "synonims": [
+            "AO FGC UES",
+            "ПАО Россети",
+            "ПАО ФСК ЕЭС",
+            "Россети ФСК ЕЭС",
+            "ФСК ЕЭС"
+        ]
+    },
+    {
+        "issuerid": 187,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ФосАгро\"",
+        "company_name_lower": "фосагро",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "PHOR RX"
+        ],
+        "synonims": [
+            "Phosagro",
+            "Фосагро"
+        ]
+    },
+    {
+        "issuerid": 188,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Химпром\"",
+        "company_name_lower": "химпром",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "HIMCP RX"
+        ],
+        "synonims": [
+            "himprom",
+            "ПАО Химпром",
+            "Химпром"
+        ]
+    },
+    {
+        "issuerid": 189,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Центр международной торговли\"",
+        "company_name_lower": "центр международной торговли",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "WTCM RX"
+        ],
+        "synonims": [
+            "WTC",
+            "World trade center",
+            "ЦМТ",
+            "Центр международной торговли"
+        ]
+    },
+    {
+        "issuerid": 190,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Центр по перевозке грузов в контейнерах \"ТрансКонтейнер\"",
+        "company_name_lower": "трансконтейнер",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TRCN RX"
+        ],
+        "synonims": [
+            "Transcontainer",
+            "ПАО Трансконейнер",
+            "Трансконтейнер"
+        ]
+    },
+    {
+        "issuerid": 191,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Центральный телеграф\"",
+        "company_name_lower": "центральный телеграф",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CNTL RX"
+        ],
+        "synonims": [
+            "Central Telegraph",
+            "ПАО Центральный телеграф",
+            "Центральный телеграф"
+        ]
+    },
+    {
+        "issuerid": 192,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Челябинский завод профилированного стального настила\"",
+        "company_name_lower": "челябинский завод профилированного стального настила",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "PRFN RX            "
+        ],
+        "synonims": [
+            "ПАО ЧЗПСН-Профнастил",
+            "ЧЗПСН-Профнастил",
+            "Челябинский завод профилированного стального настила"
+        ]
+    },
+    {
+        "issuerid": 193,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Челябинский кузнечно-прессовый завод\"",
+        "company_name_lower": "челябинский кузнечно-прессовый завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CKPZ RX"
+        ],
+        "synonims": [
+            "OAO Chelyabinsk Forge-and-Press Plant",
+            "ПАО Челябинский кузнечно-прессовый завод",
+            "ЧКПЗ"
+        ]
+    },
+    {
+        "issuerid": 194,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Челябинский металлургический комбинат\"",
+        "company_name_lower": "челябинский металлургический комбинат",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CHMK RX"
+        ],
+        "synonims": [
+            "ChMK",
+            "Chelyabinsk Metallurgical Plant",
+            "ПАО ЧМК",
+            "ЧМК",
+            "Челябинский металлургический комбинат"
+        ]
+    },
+    {
+        "issuerid": 195,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Челябинский трубопрокатный завод\"",
+        "company_name_lower": "челябинский трубопрокатный завод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "CHEP RX"
+        ],
+        "synonims": [
+            "Chelyabinsk Pipe Rolling Plant",
+            "ПАО ЧТПЗ",
+            "ЧТПЗ",
+            "Челябинский трубопрокатный завод"
+        ]
+    },
+    {
+        "issuerid": 196,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Электроцинк\"",
+        "company_name_lower": "электроцинк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ELTZ RX                "
+        ],
+        "synonims": [
+            "Electrozink",
+            "ПАО Электроцинк",
+            "Электроцинк"
+        ]
+    },
+    {
+        "issuerid": 197,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Энел Россия\"",
+        "company_name_lower": "энел россия",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ENRU RX"
+        ],
+        "synonims": [
+            "Enel Russia",
+            "elfv",
+            "ПАО Энел Россия",
+            "Энел Россия"
+        ]
+    },
+    {
+        "issuerid": 198,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Южно-Уральский никелевый комбинат\"",
+        "company_name_lower": "южно-уральский никелевый комбинат",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UNKL RX            "
+        ],
+        "synonims": [
+            "Unickel",
+            "Комбинат Южуралникель",
+            "ПАО Комбинат Южуралникель",
+            "Южуралникель"
+        ]
+    },
+    {
+        "issuerid": 199,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Юнипро\"",
+        "company_name_lower": "юнипро",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "UPRO RX"
+        ],
+        "synonims": [
+            "unipro",
+            "ПАО Юнипро",
+            "Юнипро"
+        ]
+    },
+    {
+        "issuerid": 200,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Якутская топливно-энергетическая компания\"",
+        "company_name_lower": "якутская топливно-энергетическая компания",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "YAKG RX"
+        ],
+        "synonims": [
+            "Yatec",
+            "ПАО Якутская топливно-энергетическая компания",
+            "ЯТЭК",
+            "Якутская топливно-энергетическая компания"
+        ]
+    },
+    {
+        "issuerid": 201,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Якутскэнерго\"",
+        "company_name_lower": "якутскэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "YKEN RX"
+        ],
+        "synonims": [
+            "Yakutskenergo",
+            "ПАО Якутскэнерго",
+            "Якутскэнерго"
+        ]
+    },
+    {
+        "issuerid": 202,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Банк \"Возрождение\"",
+        "company_name_lower": "возрождение",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "VZRZ RX"
+        ],
+        "synonims": [
+            "Vozrozhdenie Bank",
+            "Банк Возрождение ",
+            "ПАО Банк Возрождение"
+        ]
+    },
+    {
+        "issuerid": 203,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Банк \"Кузнецкий\"",
+        "company_name_lower": "кузнецкий",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KUZB RX"
+        ],
+        "synonims": [
+            "kuzbank",
+            "Банк Кузнецкий",
+            "ПАО Банк Кузнецкий"
+        ]
+    },
+    {
+        "issuerid": 204,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Группа компаний \"Сегежа\"",
+        "company_name_lower": "сегежа",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SGZH RX"
+        ],
+        "synonims": [
+            "Segezha Group",
+            "segezha",
+            "Сегежа групп",
+            "сегежа"
+        ]
+    },
+    {
+        "issuerid": 205,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Группа компаний \"ТНС энерго\"",
+        "company_name_lower": "тнс энерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "TNSE RX"
+        ],
+        "synonims": [
+            "TNS energo",
+            "ПАО ГК ТНС энерго",
+            "ТНС энерго"
+        ]
+    },
+    {
+        "issuerid": 206,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Завод экологической техники и экопитания \"ДИОД\"",
+        "company_name_lower": "диод",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "DIOD RX"
+        ],
+        "synonims": [
+            "DIOD Plant of Ecological Technics and Ecomeals",
+            "Диод",
+            "Завод экологической техники и экопитания Диод",
+            "ПАО Диод "
+        ]
+    },
+    {
+        "issuerid": 207,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество МОСКОВСКИЙ ОБЛАСТНОЙ БАНК",
+        "company_name_lower": "московский областной банк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MOBB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 208,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Научно-производственное объединение \"Наука\"",
+        "company_name_lower": "наука",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "NAUK"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 209,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Нефтегазовая компания \"РуссНефть\"",
+        "company_name_lower": "русснефть",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RNFT                "
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 210,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Объединенные машиностроительные заводы (Группа Уралмаш-Ижора)",
+        "company_name_lower": "объединенные машиностроительные заводы (группа уралмаш-ижора)",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "OMZZP",
+            "OMZZ"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 211,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество РОСБАНК",
+        "company_name_lower": "росбанк",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "ROSB"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 212,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество Страховая Компания \"Росгосстрах\"",
+        "company_name_lower": "росгосстрах",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RGSS"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 213,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество энергетики и электрификации \"Камчатскэнерго\"",
+        "company_name_lower": "камчатскэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "KCHEP",
+            "KCHE"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 214,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество энергетики и электрификации \"Магаданэнерго\"",
+        "company_name_lower": "магаданэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MAGEP",
+            "MAGE"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 215,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество энергетики и электрификации \"Мосэнерго\"",
+        "company_name_lower": "мосэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "MSNG                "
+        ],
+        "synonims": [
+            "московская энергетическая компания",
+            "мосэнерго"
+        ]
+    },
+    {
+        "issuerid": 216,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество энергетики и электрификации \"Самараэнерго\"",
+        "company_name_lower": "самараэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SAGO"
+        ],
+        "synonims": [
+            "самарэнерго"
+        ]
+    },
+    {
+        "issuerid": 217,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество энергетики и электрификации \"Сахалинэнерго\"",
+        "company_name_lower": "сахалинэнерго",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SLEN"
+        ],
+        "synonims": [
+            "сахалинэнерго"
+        ]
+    },
+    {
+        "issuerid": 218,
+        "EMITENT_FULL_NAME": "ETALON GROUP PLC (ЭТАЛОН ГРУП ПИЭЛСИ) (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "etalon group (эталон груп пиэлси)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "ETLN LI",
+            "Эталон Груп"
+        ],
+        "synonims": [
+            "Группа Эталон"
+        ]
+    },
+    {
+        "issuerid": 219,
+        "EMITENT_FULL_NAME": "Fix Price Group Ltd (Фикс Прайс Груп Лтд) (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "fix price group (фикс прайс груп лтд)",
+        "company_type": "LTD",
+        "BGTickers": [
+            "FIXP RX"
+        ],
+        "synonims": [
+            "Fix Price",
+            "FixPrice"
+        ]
+    },
+    {
+        "issuerid": 220,
+        "EMITENT_FULL_NAME": "Globaltrans Investment PLC (Глобалтранс Инвестмент ПЛС) (эмитент депозитарных расписок - Citibank N.A. (Ситибэнк Эн.Эй))",
+        "company_name_lower": "globaltrans investment (глобалтранс инвестмент плс)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "GLTR LI"
+        ],
+        "synonims": [
+            "Globaltrans",
+            "Глобалтранс"
+        ]
+    },
+    {
+        "issuerid": 221,
+        "EMITENT_FULL_NAME": "HeadHunter Group PLC (ХэдХантер Групп ПИЭЛСИ) (эмитент депозитарных расписок - JPMorgan Chase Bank, N.A. (ДжиПиМорган Чейз Банк, Эн.Эй))",
+        "company_name_lower": "headhunter group (хэдхантер групп пиэлси)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "HHRU RX"
+        ],
+        "synonims": [
+            "Headhunter"
+        ]
+    },
+    {
+        "issuerid": 222,
+        "EMITENT_FULL_NAME": "HMS HYDRAULIC MACHINES & SYSTEMS GROUP PLC (ГМС ГИДРАВЛИК МАШИНС ЭНД СИСТЕМС ГРУП ПЛС) (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "hms hydraulic machines & systems group (гмс гидравлик машинс энд системс груп плс)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "HMSG"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 223,
+        "EMITENT_FULL_NAME": "Mail.ru Group Limited (Мэйл.ру Груп Лимитед) (эмитент депозитарных расписок - Citibank N.A. (Ситибэнк Эн.Эй))",
+        "company_name_lower": "mail.ru group limited (мэйл.ру груп лимитед)",
+        "company_type": null,
+        "BGTickers": [
+            "MAIL LI",
+            "VKCO"
+        ],
+        "synonims": [
+            "VK Group",
+            "ВК",
+            "Вконтакте"
+        ]
+    },
+    {
+        "issuerid": 224,
+        "EMITENT_FULL_NAME": "MD MEDICAL GROUP INVESTMENTS PLC (МД МЕДИКАЛ ГРУП ИНВЕСТМЕНТС ПЛС) (эмитент депозитарных расписок - JPMorgan Chase Bank, N.A. (ДжиПиМорган Чейз Банк, Эн.Эй))",
+        "company_name_lower": "md medical group investments (мд медикал груп инвестментс плс)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "MDMG RX",
+            "MD Medical"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 225,
+        "EMITENT_FULL_NAME": "TCS Group Holding PLC (ТиСиЭс Груп Холдинг ПиЭлСи) (эмитент депозитарных расписок - JPMorgan Chase Bank, N.A. (ДжиПиМорган Чейз Банк, Эн.Эй))",
+        "company_name_lower": "tcs group holding (тисиэс груп холдинг пиэлси)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "TCS LI",
+            "TCSG"
+        ],
+        "synonims": [
+            "TCS Group",
+            "Tinkoff",
+            "Тинькофф"
+        ]
+    },
+    {
+        "issuerid": 226,
+        "EMITENT_FULL_NAME": "АО О'КЕЙ ГРУПП (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "ао о'кей групп",
+        "company_type": null,
+        "BGTickers": [
+            "OKEY RX"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 227,
+        "EMITENT_FULL_NAME": "Икс 5 Ритейл Груп Н.В. (X5 Retail Group N.V.) (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "икс 5 ритейл груп н.в. (x5 retail group n.v.)",
+        "company_type": null,
+        "BGTickers": [
+            "FIVE LI"
+        ],
+        "synonims": [
+            "X5 Group",
+            "Х5 групп"
+        ]
+    },
+    {
+        "issuerid": 228,
+        "EMITENT_FULL_NAME": "КИВИ ПиЭлСи (QIWI PLC) (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "киви пиэлси (qiwi )",
+        "company_type": "PLC",
+        "BGTickers": [
+            "QIWI RX"
+        ],
+        "synonims": [
+            "АО Киви"
+        ]
+    },
+    {
+        "issuerid": 229,
+        "EMITENT_FULL_NAME": "Международная компания публичное акционерное общество \"Лента\" (эмитент депозитарных расписок - Deutsche Bank Trust Company Americas (Дойче Банк Траст Кампани Америкас))",
+        "company_name_lower": "лента",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "LNTA"
+        ],
+        "synonims": [
+            "LENT"
+        ]
+    },
+    {
+        "issuerid": 230,
+        "EMITENT_FULL_NAME": "Озон Холдингс ПиЭлСи (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "озон холдингс пиэлси",
+        "company_type": null,
+        "BGTickers": [
+            "OZON RX"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 231,
+        "EMITENT_FULL_NAME": "РОС АГРО ПЛС (ROS AGRO PLC) (эмитент депозитарных расписок - The Bank of New York Mellon (Бэнк оф Нью Йорк Меллон))",
+        "company_name_lower": "рос агро плс (ros agro )",
+        "company_type": "PLC",
+        "BGTickers": [
+            "AGRO RX",
+            "Русагро"
+        ],
+        "synonims": [
+            "Rusagro"
+        ]
+    },
+    {
+        "issuerid": 232,
+        "EMITENT_FULL_NAME": "Nord Gold PLC (Норд Голд ПЛК)",
+        "company_name_lower": "nord gold (норд голд плк)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "RTSD"
+        ],
+        "synonims": []
+    },
+    {
+        "issuerid": 233,
+        "EMITENT_FULL_NAME": "UNITED MEDICAL GROUP CY PLC (ЮНАЙТЕД МЕДИКАЛ ГРУП КИ ПИЭЛСИ) (эмитент депозитарных расписок - The Bank of New York Mellon Corporation (Зе Бэнк оф Нью Йорк Меллон Корпорэйшн))",
+        "company_name_lower": "united medical group cy (юнайтед медикал груп ки пиэлси)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "NORD"
+        ],
+        "synonims": [
+            "Nordgold"
+        ]
+    },
+    {
+        "issuerid": 234,
+        "EMITENT_FULL_NAME": "Petropavlovsk PLC (Петропавловск ПЛК)",
+        "company_name_lower": "petropavlovsk (петропавловск плк)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "POGR"
+        ],
+        "synonims": [
+            "\"Петропавловск\"",
+            "Petropavl"
+        ]
+    },
+    {
+        "issuerid": 235,
+        "EMITENT_FULL_NAME": "Полиметалл Интернэшнл плс (Polymetal International plc)",
+        "company_name_lower": "полиметалл интернэшнл плс (polymetal international )",
+        "company_type": "PLC",
+        "BGTickers": [
+            "POLY RX"
+        ],
+        "synonims": [
+            "polymetal",
+            "полиметалл"
+        ]
+    },
+    {
+        "issuerid": 236,
+        "EMITENT_FULL_NAME": "Публичная Компания с ограниченной ответственностью Яндекс Н.В. (Public Limited Liability Company Yandex N.V.)",
+        "company_name_lower": "яндекс н.в. (public limited liability company yandex n.v.)",
+        "company_type": "PLC",
+        "BGTickers": [
+            "YNDX RX"
+        ],
+        "synonims": [
+            "Yandex",
+            "Яндекс"
+        ]
+    },
+    {
+        "issuerid": 237,
+        "EMITENT_FULL_NAME": "Softline Holding Limited (эмитент депозитарных расписок - The Bank of New York Mellon Corporation (Зе Бэнк оф Нью Йорк Меллон Корпорэйшн))",
+        "company_name_lower": "softline holding limited",
+        "company_type": null,
+        "BGTickers": [
+            "SFTL                "
+        ],
+        "synonims": [
+            "Noventiq",
+            "softline",
+            "софтлайн"
+        ]
+    },
+    {
+        "issuerid": 240,
+        "EMITENT_FULL_NAME": "VEON Ltd.",
+        "company_name_lower": "veon .",
+        "company_type": "LTD",
+        "BGTickers": [
+            "VEON                "
+        ],
+        "synonims": [
+            "ВЕОН"
+        ]
+    },
+    {
+        "issuerid": 241,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Группа Позитив\"",
+        "company_name_lower": "группа позитив",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "POSI                "
+        ],
+        "synonims": [
+            "Positive Group",
+            "Positive tech",
+            "гр. Позитив",
+            "группа позитив"
+        ]
+    },
+    {
+        "issuerid": 251,
+        "EMITENT_FULL_NAME": "Cian PLC (эмитент депозитарных расписок - The Bank of New York Mellon)",
+        "company_name_lower": "cian",
+        "company_type": "PLC",
+        "BGTickers": [
+            "CIAN                "
+        ],
+        "synonims": [
+            "cian",
+            "циан"
+        ]
+    },
+    {
+        "issuerid": 254,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"ВУШ Холдинг\"",
+        "company_name_lower": "вуш холдинг",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "WUSH                "
+        ],
+        "synonims": [
+            "Whoosh",
+            "Вуш"
+        ]
+    },
+    {
+        "issuerid": 255,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"СПБ Биржа\"",
+        "company_name_lower": "спб биржа",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "SPBE"
+        ],
+        "synonims": [
+            "СПБ Биржа"
+        ]
+    },
+    {
+        "issuerid": 257,
+        "EMITENT_FULL_NAME": "Global Ports",
+        "company_name_lower": "global ports",
+        "company_type": null,
+        "BGTickers": [
+            "GLPR                "
+        ],
+        "synonims": [
+            "Globalports",
+            "Глобалпортс"
+        ]
+    },
+    {
+        "issuerid": 267,
+        "EMITENT_FULL_NAME": "Публичное акционерное общество \"Группа Ренессанс Страхование\"",
+        "company_name_lower": "группа ренессанс страхование",
+        "company_type": "ПАО",
+        "BGTickers": [
+            "RENI"
+        ],
+        "synonims": [
+            "Ренессанс Страхование"
+        ]
+    },
+    {
+        "issuerid": 258,
+        "EMITENT_FULL_NAME": "Astra Linux",
+        "company_name_lower": "astra linux",
+        "company_type": null,
+        "BGTickers": [
+            "ASTR"
+        ],
+        "synonims": [
+            "Astra",
+            "Астра",
+            "Гк Астра",
+            "Группа Астра"
+        ]
+    },
+    {
+        "issuerid": 261,
+        "EMITENT_FULL_NAME": "INARCTICA",
+        "company_name_lower": "inarctica",
+        "company_type": null,
+        "BGTickers": [
+            "AQUA"
+        ],
+        "synonims": [
+            "Аквакультура",
+            "Инарктика",
+            "Русская аквакультура",
+            "Русское море"
+        ]
+    },
+    {
+        "issuerid": 265,
+        "EMITENT_FULL_NAME": "ЮЖУРАЛЗОЛОТО",
+        "company_name_lower": "южуралзолото",
+        "company_type": null,
+        "BGTickers": [
+            "UGLD"
+        ],
+        "synonims": [
+            "ЮГК"
+        ]
+    },
+    {
+        "issuerid": 266,
+        "EMITENT_FULL_NAME": "Artgen biotech",
+        "company_name_lower": "artgen biotech",
+        "company_type": null,
+        "BGTickers": [
+            "ABIO"
+        ],
+        "synonims": [
+            "iАРТГЕН",
+            "Артген",
+            "Артген Биотех"
+        ]
+    },
+    {
+        "issuerid": 268,
+        "EMITENT_FULL_NAME": "Генетико",
+        "company_name_lower": "генетико",
+        "company_type": null,
+        "BGTickers": [
+            "GECO"
+        ],
+        "synonims": [
+            "Genetico",
+            "iГенетико"
+        ]
+    },
+    {
+        "issuerid": 269,
+        "EMITENT_FULL_NAME": "CarMoney",
+        "company_name_lower": "carmoney",
+        "company_type": null,
+        "BGTickers": [
+            "CARM"
+        ],
+        "synonims": [
+            "ПАО \"СТГ\"",
+            "Смарттехгрупп"
+        ]
+    },
+    {
+        "issuerid": 270,
+        "EMITENT_FULL_NAME": "Henderson",
+        "company_name_lower": "henderson",
+        "company_type": null,
+        "BGTickers": [
+            "HNFG"
+        ],
+        "synonims": [
+            "Хендерсон"
+        ]
+    },
+    {
+        "issuerid": 271,
+        "EMITENT_FULL_NAME": "Совкомбанк",
+        "company_name_lower": "совкомбанк",
+        "company_type": null,
+        "BGTickers": [
+            "SVCB"
+        ],
+        "synonims": [
+            "Sovcombank"
+        ]
+    },
+    {
+        "issuerid": 272,
+        "EMITENT_FULL_NAME": "ЕвроТранс",
+        "company_name_lower": "евротранс",
+        "company_type": null,
+        "BGTickers": [
+            "EUTR"
+        ],
+        "synonims": [
+            "АЗС \"Трасса\"",
+            "АЗС «Трасса»",
+            "АЗС Трасса"
+        ]
+    },
+    {
+        "issuerid": 273,
+        "EMITENT_FULL_NAME": "Делимобиль",
+        "company_name_lower": "делимобиль",
+        "company_type": null,
+        "BGTickers": [
+            "DELI"
+        ],
+        "synonims": [
+            "\"Каршеринг Руссия\", ПАО",
+            "delimobil",
+            "Делимобил",
+            "Каршеринг Рус",
+            "ПАО \"Каршеринг Руссия\""
+        ]
+    },
+    {
+        "issuerid": 274,
+        "EMITENT_FULL_NAME": "Диасофт",
+        "company_name_lower": "диасофт",
+        "company_type": null,
+        "BGTickers": [
+            "DIAS"
+        ],
+        "synonims": [
+            "Diasoft"
+        ]
+    }
+]
