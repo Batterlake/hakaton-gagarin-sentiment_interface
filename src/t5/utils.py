@@ -2,7 +2,7 @@ import evaluate
 import numpy as np
 import pandas as pd
 import torch
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 from transformers import T5Tokenizer
 
 from .model import NERModel
