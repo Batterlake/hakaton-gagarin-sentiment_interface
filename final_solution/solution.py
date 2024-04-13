@@ -71,6 +71,9 @@ def score_texts(
     >>> assert all([len(m) < 10 ** 11 for m in messages]) # all messages are shorter than 2048 characters
     """
 
+    if not messages:
+        return [[tuple()]]
+
     df = pd.DataFrame({"input_text": messages})
 
     df["prefix"] = "clsorg"
