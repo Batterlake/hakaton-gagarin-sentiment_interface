@@ -54,7 +54,7 @@ def generate_answer_batched(
 
 m_name = "cointegrated/rut5-small"
 tokenizer = T5Tokenizer.from_pretrained(m_name)
-model = torch.load('model/final_model.pth')
+model = torch.load('final_model.pth')
 
 def score_texts(
     messages: tp.Iterable[str], *args, **kwargs
@@ -71,25 +71,38 @@ def score_texts(
     >>> assert all([len(m) < 10 ** 11 for m in messages]) # all messages are shorter than 2048 characters
     """
 
-    df = pd.DataFrame({"input_text": messages})
+    try:
 
-    df["prefix"] = "clsorg"
+        if not messages:
+            return [[tuple()]]
 
-    entities_found = generate_answer_batched(
-        trained_model=model, tokenizer=tokenizer, data=df, batch_size=64
-    )
+        df = pd.DataFrame({"input_text": messages})
 
-    results = []
+        df["prefix"] = "clsorg"
 
-    for row in entities_found:
-        for entity in row.split(";"):
-            t = []
-            tup = entity.split('-')
-            entity_id, entity_score = tup
-            t.append((int(entity_id), float(entity_score)))
-        results.append(t)
+        entities_found = generate_answer_batched(
+            trained_model=model, tokenizer=tokenizer, data=df, batch_size=64
+        )
 
-    return results
+
+
+        results = []
+
+        for row in entities_found:
+            for entity in row.split(";"):
+                t = []
+                try:
+                    tup = entity.split('-')
+                    entity_id, entity_score = tup
+                    t.append((int(entity_id), float(entity_score)))
+                except Exception:
+                    break
+            results.append(t)
+
+        return results
+    
+    except Exception:
+        return []
 
 
 if __name__ == "__main__":
