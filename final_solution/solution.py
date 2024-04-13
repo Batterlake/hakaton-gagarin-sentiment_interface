@@ -54,7 +54,7 @@ def generate_answer_batched(
 
 m_name = "cointegrated/rut5-small"
 tokenizer = T5Tokenizer.from_pretrained(m_name)
-model = torch.load('final_model.pth')
+model = torch.load('model/final_model.pth')
 
 def score_texts(
     messages: tp.Iterable[str], *args, **kwargs
