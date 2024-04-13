@@ -3,23 +3,24 @@ import numpy as np
 import pandas as pd
 import torch
 from tqdm import tqdm
-from transformers import T5Tokenizer
-
-from .model import NERModel
+from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 
 def generate_answer_batched(
-    trained_model: NERModel,
+    trained_model: T5ForConditionalGeneration,
     tokenizer: T5Tokenizer,
     data: pd.DataFrame,
     batch_size: int = 64,
+    num_beams: int = 3,
+    max_source_length: int = 396,
+    max_target_length: int = 80,
 ):
     predictions = []
     with torch.no_grad():
         for name, batch in tqdm(data.groupby(np.arange(len(data)) // batch_size)):
             source_encoding = tokenizer(
                 (batch["prefix"] + ": " + batch["input_text"]).tolist(),
-                max_length=396,
+                max_length=max_source_length,
                 padding="max_length",
                 truncation=True,
                 return_attention_mask=True,
@@ -27,11 +28,11 @@ def generate_answer_batched(
                 return_tensors="pt",
             )
 
-            generated_ids = trained_model.model.generate(
+            generated_ids = trained_model.generate(
                 input_ids=source_encoding["input_ids"].cuda(),
                 attention_mask=source_encoding["attention_mask"].cuda(),
-                num_beams=3,
-                max_length=80,
+                num_beams=num_beams,
+                max_length=max_target_length,
                 repetition_penalty=1.0,
                 early_stopping=True,
                 use_cache=True,

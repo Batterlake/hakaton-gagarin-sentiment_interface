@@ -18,14 +18,12 @@ class NERModel(pl.LightningModule):
             for param in self.model.lm_head.parameters():
                 param.requires_grad = True  # Unfreeze the last layer
 
-
     def forward(self, input_ids, attention_mask, labels=None):
         output = self.model(
-                input_ids=input_ids, attention_mask=attention_mask, labels=labels
+            input_ids=input_ids, attention_mask=attention_mask, labels=labels
         )
 
         return output.loss, output.logits
-    
 
     def training_step(self, batch, batch_idx):
         input_ids = batch["input_ids"]

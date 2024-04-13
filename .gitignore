@@ -1,3 +1,6 @@
+pretrained*/
+pybooks/bert.ipynb
+.ruff_cache
 .conda
 data
 checkpoints
