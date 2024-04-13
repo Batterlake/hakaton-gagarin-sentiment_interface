@@ -47,7 +47,7 @@ class BERTClassificationDataset(Dataset):
                     sentiments=(pair[0].sentiments + pair[1].sentiments),
                 )
                 auged_samples.append(concat_sample)
-            
+
             samples.extend(samples)
             random.shuffle(samples)
 
