@@ -13,24 +13,26 @@ def generate_answer_batched(
     tokenizer: T5Tokenizer,
     data: pd.DataFrame,
     batch_size: int = 64,
+    n_beams: int = 3,
+    max_length: int = 396,
 ):
     predictions = []
     with torch.no_grad():
         for name, batch in tqdm(data.groupby(np.arange(len(data)) // batch_size)):
             source_encoding = tokenizer(
                 (batch["prefix"] + ": " + batch["input_text"]).tolist(),
-                max_length=396,
-                padding="max_length",
+                max_length=max_length,
+                padding="longest",
                 truncation=True,
                 return_attention_mask=True,
                 add_special_tokens=True,
                 return_tensors="pt",
             )
 
-            generated_ids = trained_model.model.generate(
+            generated_ids = trained_model.generate(
                 input_ids=source_encoding["input_ids"].cuda(),
                 attention_mask=source_encoding["attention_mask"].cuda(),
-                num_beams=3,
+                num_beams=n_beams,
                 max_length=80,
                 repetition_penalty=1.0,
                 early_stopping=True,

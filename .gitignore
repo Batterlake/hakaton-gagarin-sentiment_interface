@@ -2,6 +2,8 @@
 data
 checkpoints
 lightning_logs
+pretrained/
+pybooks/bert.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
