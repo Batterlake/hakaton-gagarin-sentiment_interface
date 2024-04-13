@@ -14,20 +14,15 @@ class BERTClassificationModel(pl.LightningModule):
         self.bert = BertModel.from_pretrained(model_name)
         # for param in self.bert.parameters():
         #     param.requires_grad = False
-        self.issuers_head = nn.Sequential(
-            nn.Linear(312, 256),
-            nn.ReLU(),
-            nn.Dropout(0.1),
-            nn.Linear(256, num_issuers_classes),
-            nn.Softmax(dim=1),
-        )
-        self.sentiment_head = nn.Sequential(
+
+        self.head = nn.Sequential(
             nn.Linear(312, 512),
-            nn.ReLU(),
+            nn.GELU(),
             nn.Dropout(0.1),
-            nn.Linear(512, num_issuers_classes * num_sentiment_classes),
+            nn.Linear(512, num_issuers_classes * (num_sentiment_classes + 1)),
             nn.Softmax(dim=1),
         )
+        self.num_issuers_classes = num_issuers_classes
 
     def criterion(
         self, issuers_output, issuer_labels, sentiment_output, sentiment_labels
@@ -40,8 +35,12 @@ class BERTClassificationModel(pl.LightningModule):
         bert_output = self.bert(
             input_ids=input_ids, attention_mask=attention_mask
         ).pooler_output
-        issuer_output = self.issuers_head(bert_output)
-        sentiment_output = self.sentiment_head(bert_output)
+
+        head_output = self.head(bert_output)
+        issuer_output, sentiment_output = (
+            head_output[:, : self.num_issuers_classes],
+            head_output[:, self.num_issuers_classes :],
+        )
 
         return issuer_output, sentiment_output
 
