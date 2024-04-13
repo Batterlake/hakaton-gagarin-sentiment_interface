@@ -86,7 +86,7 @@ def score_texts(
             t = []
             tup = entity.split('-')
             entity_id, entity_score = tup
-            t.append((entity_id, entity_score))
+            t.append((int(entity_id), float(entity_score)))
         results.append(t)
 
     return results
