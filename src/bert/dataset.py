@@ -1,4 +1,6 @@
+import random
 from collections import namedtuple
+from itertools import combinations
 
 import pandas as pd
 import pytorch_lightning as pl
@@ -18,6 +20,7 @@ class BERTClassificationDataset(Dataset):
         message_col_name: str = "MessageText",
         issuer_id_col_name: str = "issuerid",
         sentiment_score_col_name: str = "SentimentScore",
+        use_aug: bool = False,
     ):
         Sample = namedtuple("Sample", ["message", "issuer_ids", "sentiments"])
         samples = []
@@ -30,6 +33,23 @@ class BERTClassificationDataset(Dataset):
                     group[sentiment_score_col_name].tolist(),
                 )
             )
+
+        if use_aug:
+            short_samples = list(filter(lambda x: len(x.message) < 1024, samples))
+            pairs = list(combinations(short_samples, 2))
+            pairs = random.sample(pairs, 50_000)
+            auged_samples = []
+
+            for pair in pairs:
+                concat_sample = Sample(
+                    message=(pair[0].message + " " + pair[1].message),
+                    issuer_ids=(pair[0].issuer_ids + pair[1].issuer_ids),
+                    sentiments=(pair[0].sentiments + pair[1].sentiments),
+                )
+                auged_samples.append(concat_sample)
+            
+            samples.extend(samples)
+            random.shuffle(samples)
 
         self.samples = samples
         self.tokenizer = tokenizer
