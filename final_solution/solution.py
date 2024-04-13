@@ -71,28 +71,38 @@ def score_texts(
     >>> assert all([len(m) < 10 ** 11 for m in messages]) # all messages are shorter than 2048 characters
     """
 
-    if not messages:
-        return [[tuple()]]
+    try:
 
-    df = pd.DataFrame({"input_text": messages})
+        if not messages:
+            return [[tuple()]]
 
-    df["prefix"] = "clsorg"
+        df = pd.DataFrame({"input_text": messages})
 
-    entities_found = generate_answer_batched(
-        trained_model=model, tokenizer=tokenizer, data=df, batch_size=64
-    )
+        df["prefix"] = "clsorg"
 
-    results = []
+        entities_found = generate_answer_batched(
+            trained_model=model, tokenizer=tokenizer, data=df, batch_size=64
+        )
 
-    for row in entities_found:
-        for entity in row.split(";"):
-            t = []
-            tup = entity.split('-')
-            entity_id, entity_score = tup
-            t.append((int(entity_id), float(entity_score)))
-        results.append(t)
 
-    return results
+
+        results = []
+
+        for row in entities_found:
+            for entity in row.split(";"):
+                t = []
+                try:
+                    tup = entity.split('-')
+                    entity_id, entity_score = tup
+                    t.append((int(entity_id), float(entity_score)))
+                except Exception:
+                    break
+            results.append(t)
+
+        return results
+    
+    except Exception:
+        return []
 
 
 if __name__ == "__main__":
