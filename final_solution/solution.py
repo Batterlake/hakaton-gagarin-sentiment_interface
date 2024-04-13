@@ -71,7 +71,9 @@ def score_texts(
     >>> assert all([len(m) < 10 ** 11 for m in messages]) # all messages are shorter than 2048 characters
     """
 
-    df = pd.DataFrame({"message": messages})
+    df = pd.DataFrame({"input_text": messages})
+
+    df["prefix"] = "clsorg"
 
     entities_found = generate_answer_batched(
         trained_model=model, tokenizer=tokenizer, data=df, batch_size=64
