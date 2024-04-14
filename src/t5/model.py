@@ -1,4 +1,5 @@
 import pytorch_lightning as pl
+import torch
 from transformers import AdamW, T5ForConditionalGeneration
 
 
@@ -10,22 +11,18 @@ class NERModel(pl.LightningModule):
             m_name, return_dict=True
         )
 
-        print(self.model)
-
         if use_freeze:
             for param in self.model.parameters():
                 param.requires_grad = False
             for param in self.model.lm_head.parameters():
                 param.requires_grad = True  # Unfreeze the last layer
 
-
     def forward(self, input_ids, attention_mask, labels=None):
         output = self.model(
-                input_ids=input_ids, attention_mask=attention_mask, labels=labels
+            input_ids=input_ids, attention_mask=attention_mask, labels=labels
         )
 
         return output.loss, output.logits
-    
 
     def training_step(self, batch, batch_idx):
         input_ids = batch["input_ids"]
@@ -53,3 +50,9 @@ class NERModel(pl.LightningModule):
 
     def configure_optimizers(self):
         return AdamW(self.parameters(), lr=self.lr)
+
+
+def get_inference_model(path: str):
+    return T5ForConditionalGeneration.from_pretrained(
+        path, return_dict=True, torch_dtype=torch.float16
+    )
