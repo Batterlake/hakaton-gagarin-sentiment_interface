@@ -42,6 +42,7 @@ def main():
 
     try:
         texts = load_data()
+        scores = [[] for _ in texts]
     except Exception as ex:
         logger.error(f"Unable to load data: {ex}")
     dt = time.perf_counter()
