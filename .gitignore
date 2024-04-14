@@ -1,5 +1,5 @@
-.cinda/
 pretrained*/
+!pretrained-rut5-2-fp16/
 pybooks/bert.ipynb
 .ruff_cache
 .conda
