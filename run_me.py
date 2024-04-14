@@ -54,7 +54,7 @@ def main():
     try:
         scores = score_texts(texts, model=model, tokenizer=tokenizer)
     except Exception as ex:
-        logger.error(f"Unable to load model and/or tokenizer: {ex}")
+        logger.error(f"Unable to score text: {ex}")
 
     scr = time.perf_counter()
     try:

@@ -47,7 +47,7 @@ def generate_answer_batched(
 ):
     predictions = []
     with torch.no_grad():
-        for name, batch in tqdm(data.groupby(np.arange(len(data)) // batch_size)):
+        for name, batch in tqdm.tqdm(data.groupby(np.arange(len(data)) // batch_size)):
             try:
                 source_encoding = tokenizer(
                     (batch["prefix"] + ": " + batch["input_text"]).tolist(),
