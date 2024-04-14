@@ -1,4 +1,5 @@
 import pytorch_lightning as pl
+import torch
 from transformers import AdamW, T5ForConditionalGeneration
 
 
@@ -9,8 +10,6 @@ class NERModel(pl.LightningModule):
         self.model = T5ForConditionalGeneration.from_pretrained(
             m_name, return_dict=True
         )
-
-        print(self.model)
 
         if use_freeze:
             for param in self.model.parameters():
@@ -51,3 +50,9 @@ class NERModel(pl.LightningModule):
 
     def configure_optimizers(self):
         return AdamW(self.parameters(), lr=self.lr)
+
+
+def get_inference_model(path: str):
+    return T5ForConditionalGeneration.from_pretrained(
+        path, return_dict=True, torch_dtype=torch.float16
+    )

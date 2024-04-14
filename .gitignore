@@ -2,7 +2,10 @@ pretrained*/
 pybooks/bert.ipynb
 .ruff_cache
 .conda
-data
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
 checkpoints
 lightning_logs
 
