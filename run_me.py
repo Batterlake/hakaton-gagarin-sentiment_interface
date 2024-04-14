@@ -3,8 +3,7 @@ import pathlib
 import time
 import typing as tp
 
-# PATH_TO_TEST_DATA = pathlib.Path("data") / "test_texts.json"
-PATH_TO_TEST_DATA = pathlib.Path("data") / "test_texts_2.json"
+PATH_TO_TEST_DATA = pathlib.Path("data") / "test_texts.json"
 PATH_TO_OUTPUT_DATA = pathlib.Path("results") / "output_scores.json"
 
 
