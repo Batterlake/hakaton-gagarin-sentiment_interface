@@ -3,8 +3,7 @@ import typing as tp
 import pandas as pd
 from transformers import T5Tokenizer
 
-from src.t5.model import get_inference_model
-from src.t5.utils import generate_answer_batched, postprocess_predictions
+from .utils import generate_answer_batched, get_inference_model, postprocess_predictions
 
 EntityScoreType = tp.Tuple[int, float]  # (entity_id, entity_score)
 MessageResultType = tp.List[EntityScoreType]  # list of entity scores,
