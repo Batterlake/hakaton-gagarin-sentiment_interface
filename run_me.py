@@ -1,12 +1,10 @@
 import json
 import pathlib
+import time
 import typing as tp
 
-import final_solution
-import final_solution.solution_stupid
-
-
-PATH_TO_TEST_DATA = pathlib.Path("data") / "test_texts.json"
+# PATH_TO_TEST_DATA = pathlib.Path("data") / "test_texts.json"
+PATH_TO_TEST_DATA = pathlib.Path("data") / "test_texts_2.json"
 PATH_TO_OUTPUT_DATA = pathlib.Path("results") / "output_scores.json"
 
 
@@ -22,10 +20,52 @@ def save_data(data, path: pathlib.PosixPath = PATH_TO_OUTPUT_DATA):
         json.dump(data, f, indent=1, ensure_ascii=False)
 
 
+class StupyLogger:
+    def error(self, message: str):
+        print(message)
+
+
 def main():
-    texts = load_data()
-    scores = final_solution.solution.score_texts(texts)
-    save_data(scores)
+    begin = time.perf_counter()
+    texts = []
+    model = None
+    tokenizer = None
+    scores = []
+    try:
+        from loguru import logger
+
+        from final_solution.solution import initialize_model, score_texts
+
+    except ImportError as err:
+        logger = StupyLogger()
+        logger.error(f"Exception at import: {err}")
+
+    try:
+        texts = load_data()
+        scores = [[] for _ in texts]
+    except Exception as ex:
+        logger.error(f"Unable to load data: {ex}")
+    dt = time.perf_counter()
+    try:
+        model, tokenizer = initialize_model()
+    except Exception as ex:
+        logger.error(f"Unable to load model and/or tokenizer: {ex}")
+    mdl = time.perf_counter()
+
+    try:
+        scores = score_texts(texts, model=model, tokenizer=tokenizer)
+    except Exception as ex:
+        logger.error(f"Unable to load model and/or tokenizer: {ex}")
+
+    scr = time.perf_counter()
+    try:
+        save_data(scores)
+    except Exception as ex:
+        logger.error(f"Unable to save predictions: {ex}")
+    sv = time.perf_counter()
+    print(
+        f"Load data: {dt-begin}, Load model: {mdl-dt}, Score: {scr-mdl}, Save: {sv-scr}"
+    )
 
 
 if __name__ == "__main__":

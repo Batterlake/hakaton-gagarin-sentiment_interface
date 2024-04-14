@@ -2,24 +2,27 @@ import evaluate
 import numpy as np
 import pandas as pd
 import torch
-from tqdm import tqdm
-from transformers import T5Tokenizer
+from tqdm.notebook import tqdm
+from transformers import BertTokenizer
 
-from .model import NERModel
+from .model import BERTClassificationModel
 
 
 def generate_answer_batched(
-    trained_model: NERModel,
-    tokenizer: T5Tokenizer,
+    trained_model: BERTClassificationModel,
+    tokenizer: BertTokenizer,
     data: pd.DataFrame,
     batch_size: int = 64,
+    max_length: int = 256,
 ):
-    predictions = []
+    issuer_preds = []
+    sentiment_preds = []
+    trained_model.eval()
     with torch.no_grad():
-        for name, batch in tqdm(data.groupby(np.arange(len(data)) // batch_size)):
+        for _, batch in tqdm(data.groupby(np.arange(len(data)) // batch_size)):
             source_encoding = tokenizer(
-                (batch["prefix"] + ": " + batch["input_text"]).tolist(),
-                max_length=396,
+                batch["MessageText"].tolist(),
+                max_length=max_length,
                 padding="max_length",
                 truncation=True,
                 return_attention_mask=True,
@@ -27,20 +30,25 @@ def generate_answer_batched(
                 return_tensors="pt",
             )
 
-            generated_ids = trained_model.model.generate(
+            issuer_output, sentiment_output = trained_model.forward(
                 input_ids=source_encoding["input_ids"].cuda(),
                 attention_mask=source_encoding["attention_mask"].cuda(),
-                num_beams=3,
-                max_length=80,
-                repetition_penalty=1.0,
-                early_stopping=True,
-                use_cache=True,
-            ).cpu()
+            )
+            issuer_output, sentiment_output = (
+                issuer_output.cpu(),
+                sentiment_output.cpu(),
+            )
 
-            preds = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-            predictions.append(preds)
+            sentiment_pred = sentiment_output.view(
+                sentiment_output.shape[0], 5, -1
+            ).argmax(1)
+            issuer_ids = issuer_output.argmax(1).tolist()
+            issuer_preds.append(issuer_output.argmax(1).tolist())
+            sentiment_preds.append(
+                [sentiment_pred[i, idx] for i, idx in enumerate(issuer_ids)]
+            )
 
-    return sum(predictions, [])
+    return sum(issuer_preds, []), sum(sentiment_preds, [])
 
 
 def evaluate_f1(predictions, labels):
