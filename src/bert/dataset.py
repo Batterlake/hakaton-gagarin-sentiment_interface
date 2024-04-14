@@ -48,7 +48,7 @@ class BERTClassificationDataset(Dataset):
                 )
                 auged_samples.append(concat_sample)
 
-            samples.extend(samples)
+            samples.extend(auged_samples)
             random.shuffle(samples)
 
         self.samples = samples
