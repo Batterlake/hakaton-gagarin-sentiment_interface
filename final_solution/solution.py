@@ -11,7 +11,7 @@ MessageResultType = tp.List[EntityScoreType]  # list of entity scores,
 
 
 def initialize_model(
-    t_name: str = "cointegrated/rut5-small", p_name: str = "./pretrained-rut5-2"
+    t_name: str = "cointegrated/rut5-small", p_name: str = "./pretrained-rut5-2-fp16"
 ):
     tokenizer = T5Tokenizer.from_pretrained(t_name)
     model = get_inference_model(p_name).cuda()
