@@ -65,6 +65,7 @@ class NERDataModel(pl.LightningDataModule):
         batch_size: int = 8,
         source_max_token_length=396,
         target_max_token_length=32,
+        num_workers: int = 16,
     ):
         super().__init__()
         self.batch_size = batch_size
@@ -75,6 +76,7 @@ class NERDataModel(pl.LightningDataModule):
         self.tokenizer = tokenizer
         self.source_max_token_length = source_max_token_length
         self.target_max_token_length = target_max_token_length
+        self.num_workers = num_workers
 
     def setup(self, stage=None):
         self.train_dataset = NERDataset(
@@ -93,11 +95,16 @@ class NERDataModel(pl.LightningDataModule):
 
     def train_dataloader(self):
         return DataLoader(
-            self.train_dataset, batch_size=self.batch_size, shuffle=True, num_workers=10
+            self.train_dataset,
+            batch_size=self.batch_size,
+            shuffle=True,
+            num_workers=self.num_workers,
         )
 
     def val_dataloader(self):
-        return DataLoader(self.test_dataset, batch_size=self.batch_size, num_workers=16)
+        return DataLoader(
+            self.test_dataset, batch_size=self.batch_size, num_workers=self.num_workers
+        )
 
     def test_dataloader(self):
-        return DataLoader(self.test_dataset, batch_size=1, num_workers=16)
+        return DataLoader(self.test_dataset, batch_size=1, num_workers=self.num_workers)
