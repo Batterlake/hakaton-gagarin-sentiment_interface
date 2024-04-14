@@ -42,7 +42,12 @@ def score_texts(
     df = pd.DataFrame({"input_text": messages})
     df["prefix"] = "clsorg"
     predictions = generate_answer_batched(
-        trained_model=model, tokenizer=tokenizer, data=df, batch_size=64
+        trained_model=model,
+        tokenizer=tokenizer,
+        data=df,
+        batch_size=64,
+        num_beams=1,
+        max_target_length=40,
     )
     results = postprocess_predictions(predictions)
 
