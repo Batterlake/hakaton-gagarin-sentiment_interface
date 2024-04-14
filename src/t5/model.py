@@ -10,8 +10,6 @@ class NERModel(pl.LightningModule):
             m_name, return_dict=True
         )
 
-        print(self.model)
-
         if use_freeze:
             for param in self.model.parameters():
                 param.requires_grad = False
